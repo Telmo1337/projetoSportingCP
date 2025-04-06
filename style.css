@@ -1,0 +1,231 @@
+/*import main font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --sporting-green: #006633;
+  --sporting-dark-green: #004d26;
+  --sporting-light-green: #e6f2eb;
+}
+
+/*universal selectors*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*background cor*/
+.bg-primary {
+  background-color: var(--sporting-green) !important;
+}
+
+/*text principal*/
+.text-primary {
+  color: var(--primary-color) !important;
+}
+/*text secundário*/
+.text-secondary {
+  color: var(--sporting-green) !important;
+}
+
+/*btn principal*/
+.btn-primary {
+  background-color: var(--sporting-green) !important;
+  border-color: var(--sporting-green) !important;
+}
+.btn-primary:hover {
+  background-color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 84, 0.5) !important;
+}
+.btn-primary:active {
+  background-color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+/*btn outline principal*/
+.btn-outline-primary {
+  color: var(--sporting-green) !important;
+  border-color: var(--sporting-green) !important;
+}
+.btn-outline-primary:hover {
+  color: var(--secondary-color) !important;
+  border-color: var(--sporting-green) !important;
+  background-color: var(--sporting-green) !important;
+}
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 84, 0.5) !important;
+}
+.btn-outline-primary:active {
+  background-color: var(--sporting-green) !important;
+  border-color: var(--sporting-green) !important;
+}
+
+/*btn secundário*/
+.btn-secondary {
+  background-color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+.btn-secondary:hover {
+  background-color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 84, 0.5) !important;
+}
+.btn-secondary:active {
+  background-color: var(--sporting-green) !important;
+  border-color: var(--sporting-green) !important;
+}
+/*btn outline secundário*/
+.btn-outline-secondary {
+  color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+.btn-outline-secondary:hover {
+  color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+.btn-outline-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 84, 0.5) !important;
+}
+.btn-outline-secondary:active {
+  background-color: var(--sporting-dark-green) !important;
+  border-color: var(--sporting-dark-green) !important;
+}
+
+.navbar-sporting {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-sporting .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-sporting .nav-link:hover,
+.navbar-sporting .nav-link.active {
+  color: var(--sporting-green);
+}
+
+.btn-sporting {
+  background-color: var(--sporting-green);
+  border-color: var(--sporting-green);
+  color: white;
+}
+
+.btn-sporting:hover {
+  background-color: var(--sporting-dark-green);
+  border-color: var(--sporting-dark-green);
+  color: white;
+}
+
+.btn-outline-sporting {
+  border-color: var(--sporting-green);
+  color: var(--sporting-green);
+}
+
+.btn-outline-sporting:hover {
+  background-color: var(--sporting-green);
+  color: white;
+}
+
+.hero-section {
+  /* adicionar img do estadio de alvalade */
+  background: linear-gradient(rgba(0, 77, 38, 0.7), rgba(0, 77, 38, 0.4)),
+    url("https://pbs.twimg.com/media/FpG2IBHXEAUBMIj?format=jpg&name=large")
+      no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 0;
+  position: relative;
+  height: 80vh;
+}
+
+.bg-sporting-light {
+  background-color: var(--sporting-light-green);
+}
+
+.bg-sporting {
+  background-color: var(--sporting-green);
+}
+
+.text-sporting {
+  color: var(--sporting-green);
+}
+
+.team-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.player-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid var(--sporting-green);
+  object-fit: cover;
+}
+
+.trophy-card {
+  transition: transform 0.3s;
+}
+
+.trophy-card:hover {
+  transform: translateY(-5px);
+}
+
+.footer-sporting {
+  background-color: var(--sporting-green);
+  color: white;
+}
+
+.footer-sporting a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer-sporting a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-input {
+  background-color: var(--sporting-dark-green);
+  border: none;
+  color: white;
+}
+
+.footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
