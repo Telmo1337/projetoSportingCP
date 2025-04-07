@@ -35,8 +35,8 @@ taças.map(t => {
           <div class="card trophy-card text-center h-100">
             <div class="card-body p-4">
               <i class="bi bi-trophy-fill text-warning display-4 mb-3"></i>
-              <h3 class="fw-bold">19</h3>
-              <p class="text-muted">Campeonatos Nacionais</p>
+              <h3 class="fw-bold">${t.number}</h3>
+              <p class="text-muted">${t.title}</p>
             </div>
           </div>
         </div>
