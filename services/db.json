@@ -44,8 +44,8 @@
             "data": "2025-04-05",
             "hora": "19:00",
             "imgURL": "https://example.com/images/promessa.jpg",
-            "description": "Tiago Marques, de 17 anos, estreia-se com assistência.",
-            "content": "A jovem promessa Tiago Marques teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
+            "description": "Telmo Regalado, estreia-se com assistência.",
+            "content": "A jovem promessa Telmo Regalado teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
             "link": "https://example.com/news/estreia-tiago"
         },
         {
@@ -55,7 +55,7 @@
             "categoria": "Equipa Principal",
             "data": "2025-05-26",
             "hora": "17:45",
-            "imgURL": "https://example.com/images/taca.jpg",
+            "imgURL": "/assets/news5.jpg",
             "description": "Leões vencem o Braga por 3-0 na final da Taça.",
             "content": "Com golos de Pote, Gyökeres e Morita, o Sporting conquistou a 18.ª Taça de Portugal da sua história, num Estádio do Jamor pintado de verde e branco.",
             "link": "https://example.com/news/taca-vitoria"
@@ -67,7 +67,7 @@
             "categoria": "Equipa Principal",
             "data": "2025-03-20",
             "hora": "16:00",
-            "imgURL": "https://example.com/images/pote.jpg",
+            "imgURL": "/assets/news6.jpg",
             "description": "Pote decide continuar no Sporting apesar de interesse estrangeiro.",
             "content": "O médio criativo recusou propostas da Premier League para continuar em Alvalade, reforçando o compromisso com o projeto leonino.",
             "link": "https://example.com/news/pote-fica"
@@ -76,10 +76,10 @@
             "id": "7",
             "titulo": "Sporting estreia novo equipamento para 2025/26",
             "views": 11500,
-            "cateoria": "Clube",
+            "categoria": "Clube",
             "data": "2025-04-02",
             "hora": "11:30",
-            "imgURL": "https://example.com/images/equipamento.jpg",
+            "imgURL": "/assets/news7.png",
             "description": "Novo design traz de volta detalhes clássicos.",
             "content": "O Sporting revelou hoje os novos equipamentos para a próxima época, com inspiração no clássico de 2000 e tecidos ecológicos.",
             "link": "https://example.com/news/novo-equipamento"
@@ -91,7 +91,7 @@
             "categoria":"Clube",
             "data": "2025-04-01",
             "hora": "09:45",
-            "imgURL": "https://example.com/images/socios.jpg",
+            "imgURL": "/assets/news8.jpg",
             "description": "Campanha quer atrair 20 mil novos sócios até ao verão.",
             "content": "Com o lema 'Mais fortes juntos', o Sporting lança uma campanha com descontos, experiências exclusivas e prioridade em bilhetes.",
             "link": "https://example.com/news/campanha-socios"
@@ -103,7 +103,7 @@
             "categoria": "Clube",
             "data": "2025-03-25",
             "hora": "13:00",
-            "imgURL": "https://example.com/images/amorim.jpg",
+            "imgURL": "/assets/news9.png",
             "description": "Rúben Amorim e equipa técnica distinguidos pela UEFA.",
             "content": "A UEFA atribuiu o prémio de inovação tática à equipa técnica do Sporting, destacando o modelo de jogo e gestão de jovens talentos.",
             "link": "https://example.com/news/premio-uefa"
@@ -115,7 +115,7 @@
             "categoria": "Clube",
             "data": "2025-04-09",
             "hora": "15:30",
-            "imgURL": "https://example.com/images/loja.jpg",
+            "imgURL": "/assets/news10.jpg",
             "description": "Nova loja traz conceito moderno e experiências digitais.",
             "content": "O Sporting abriu uma loja conceito na Baixa de Lisboa, com zona de personalização, realidade aumentada e experiências interativas para adeptos.",
             "link": "https://example.com/news/nova-loja"

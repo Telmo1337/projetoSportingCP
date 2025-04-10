@@ -6,6 +6,23 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".transition-link");
+
+  links.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault(); // prevent immediate navigation
+
+      const target = this.href;
+
+      document.body.classList.add("fade-out");
+
+      setTimeout(() => {
+        window.location.href = target;
+      }, 500); // matches the transition time in CSS
+    });
+});
+});
 
 
 
