@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-    });
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
 });
 
 
 
 
 
-
+/*
 //seccoes de trofeus
 const taças = [
     { 
@@ -43,57 +43,46 @@ taças.map(t => {
     `;
     trofeusContainer.innerHTML += card;
 });
+*/
 
 
-//seccao de noticias
-const noticias = [
-  {
-    image: "/assets/news1.jpg",
-    category: "Equipa Principal",
-    date: "12/05/2023",
-    title: "Vitória importante no último jogo da temporada.",
-    text: "Sporting FC conquista uma vitória crucial na última partida da temporada, garantindo uma vaga na próxima Liga dos Campeões.",
-    link: "#"
-  },
-  {
-    image: "/assets/news2.jpg",
-    category: "Equipa Principal",
-    date: "10/05/2023",
-    title: "Gyökeres renova contrato com o Sporting",
-    text: "O avançado sueco prolonga o seu vínculo com os leões por mais três anos, mantendo-se no clube até 2028.",
-    link: "#"
-  },
-  {
-    image: "/assets/news3.jpg",
-    category: "Clube",
-    date: "08/05/2023",
-    title: "Cristiano Ronaldo regressa ao Sporting!",
-    text: "Aos 40 anos, CR7 volta a Alvalade para cumprir o sonho de terminar a carreira no clube que o formou.",
-    link: "#"
-  }
-];
+//function => fetch noticias
+function fetchNoticias() {
 
-const noticiasContainer = document.getElementById("noticiasContainer");
+noticiasApiURL = 'http://localhost:3000/noticias';
 
-noticias.map(n => {
-  const card = `
-    <div class="col-md-6 col-lg-4">
-      <div class="card h-100">
-        <img src="${n.image}" class="card-img-top" alt="${n.title}" style="height: 240px; object-fit: cover;">
-        <div class="card-body">
-          <div class="d-flex align-items-center gap-2 mb-2">
-            <span class="badge bg-sporting">${n.category}</span>
-            <small class="text-muted">${n.date}</small>
+fetch(noticiasApiURL)
+  .then((res) => res.json())
+  .then((data) => {
+
+    console.log('test: ', data);
+
+    const noticiasContainer = document.getElementById("noticiasContainer");
+
+    data.slice(0, 3).forEach((n) => {
+      const col = document.createElement('div');
+      col.className = 'col-md-6 col-lg-4';
+    
+      col.innerHTML = `
+        <div class="card h-100">
+          <img src="${n.imgURL}" class="card-img-top" alt="${n.titulo}" style="height: 240px; object-fit: cover;">
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <span class="badge bg-sporting">${n.categoria}</span>
+              <small class="text-muted">${n.data}</small>
+            </div>
+            <h5 class="card-title">${n.titulo}</h5>
+            <p class="card-text">${n.content}</p>
+            <a href="${n.link}" class="text-sporting fw-medium">Ler mais →</a>
           </div>
-          <h5 class="card-title">${n.title}</h5>
-          <p class="card-text">${n.text}</p>
-          <a href="${n.link}" class="text-sporting fw-medium">Ler mais →</a>
         </div>
-      </div>
-    </div>
-  `;
-
-  noticiasContainer.innerHTML += card;
-});
-
-
+      `;
+      noticiasContainer.appendChild(col);
+    })
+      //evento erro
+    .catch((err) => {
+      console.error(err);
+    })
+  })
+}
+document.addEventListener('DOMContentLoaded', fetchNoticias);

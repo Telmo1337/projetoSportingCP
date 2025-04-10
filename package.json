@@ -1,0 +1,25 @@
+{
+  "name": "projetosportingcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "json-server --watch services/db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Telmo1337/projetoSportingCP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Telmo1337/projetoSportingCP/issues"
+  },
+  "homepage": "https://github.com/Telmo1337/projetoSportingCP#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
