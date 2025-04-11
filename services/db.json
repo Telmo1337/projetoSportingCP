@@ -135,12 +135,320 @@
             "age": 34
         }
     ],
-    "trofeus": {
-        "id": "1",
-        "name": "Primeira Liga",
-        "year": 2023,
-        "description": "Primeira Liga trophy for the 2022-2023 season"
-    },
+    "trofeus": [
+        {
+            "id": "1",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1941,
+            "descrição": "Campeão nacional da época 1940/41"
+        },
+        {
+            "id": "2",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1944,
+            "descrição": "Campeão nacional da época 1943/44"
+        },
+        {
+            "id": "3",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1947,
+            "descrição": "Campeão nacional da época 1946/47"
+        },
+        {
+            "id": "4",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1948,
+            "descrição": "Campeão nacional da época 1947/48"
+        },
+        {
+            "id": "5",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1949,
+            "descrição": "Campeão nacional da época 1948/49"
+        },
+        {
+            "id": "6",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1951,
+            "descrição": "Campeão nacional da época 1950/51"
+        },
+        {
+            "id": "7",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1952,
+            "descrição": "Campeão nacional da época 1951/52"
+        },
+        {
+            "id": "8",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1953,
+            "descrição": "Campeão nacional da época 1952/53"
+        },
+        {
+            "id": "9",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1954,
+            "descrição": "Campeão nacional da época 1953/54"
+        },
+        {
+            "id": "10",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1958,
+            "descrição": "Campeão nacional da época 1957/58"
+        },
+        {
+            "id": "11",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1962,
+            "descrição": "Campeão nacional da época 1961/62"
+        },
+        {
+            "id": "12",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1966,
+            "descrição": "Campeão nacional da época 1965/66"
+        },
+        {
+            "id": "13",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1970,
+            "descrição": "Campeão nacional da época 1969/70"
+        },
+        {
+            "id": "14",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1974,
+            "descrição": "Campeão nacional da época 1973/74"
+        },
+        {
+            "id": "15",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1980,
+            "descrição": "Campeão nacional da época 1979/80"
+        },
+        {
+            "id": "16",
+            "nomeLiga": "Primeira Liga",
+            "ano": 1982,
+            "descrição": "Campeão nacional da época 1981/82"
+        },
+        {
+            "id": "17",
+            "nomeLiga": "Primeira Liga",
+            "ano": 2000,
+            "descrição": "Campeão nacional da época 1999/00"
+        },
+        {
+            "id": "18",
+            "nomeLiga": "Primeira Liga",
+            "ano": 2002,
+            "descrição": "Campeão nacional da época 2001/02"
+        },
+        {
+            "id": "19",
+            "nomeLiga": "Primeira Liga",
+            "ano": 2021,
+            "descrição": "Campeão nacional da época 2020/21"
+        },
+        {
+            "id": "20",
+            "nomeLiga": "Primeira Liga",
+            "ano": 2024,
+            "descrição": "Campeão nacional da época 2023/24"
+        },
+        {
+            "id": "21",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1941,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "22",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1945,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "23",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1946,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "24",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1948,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "25",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1954,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "26",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1963,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "27",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1971,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "28",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1973,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "29",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1974,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "30",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1978,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "31",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1982,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "32",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 1995,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "33",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 2002,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "34",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 2007,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "35",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 2008,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "36",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 2015,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "37",
+            "nomeLiga": "Taça de Portugal",
+            "ano": 2019,
+            "descrição": "Vencedor da Taça de Portugal"
+        },
+        {
+            "id": "38",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 1982,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "39",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 1987,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "40",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 1995,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "41",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2000,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "42",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2002,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "43",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2007,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "44",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2008,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "45",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2016,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "46",
+            "nomeLiga": "Supertaça Cândido de Oliveira",
+            "ano": 2021,
+            "descrição": "Vencedor da Supertaça"
+        },
+        {
+            "id": "47",
+            "nomeLiga": "Taça da Liga",
+            "ano": 2018,
+            "descrição": "Vencedor da Taça da Liga"
+        },
+        {
+            "id": "48",
+            "nomeLiga": "Taça da Liga",
+            "ano": 2019,
+            "descrição": "Vencedor da Taça da Liga"
+        },
+        {
+            "id": "49",
+            "nomeLiga": "Taça da Liga",
+            "ano": 2021,
+            "descrição": "Vencedor da Taça da Liga"
+        },
+        {
+            "id": "50",
+            "nomeLiga": "Taça da Liga",
+            "ano": 2022,
+            "descrição": "Vencedor da Taça da Liga"
+        },
+        {
+            "id": "51",
+            "nomeLiga": "Taça Império",
+            "ano": 1944,
+            "descrição": "Vencedor da Taça Império, competição única da época"
+        },
+        {
+            "id": "52",
+            "nomeLiga": "Taça das Taças",
+            "ano": 1964,
+            "descrição": "Vencedor da Taça dos Vencedores das Taças da UEFA"
+        }
+    ],
     "equipas": [
         {
             "id": "1",
