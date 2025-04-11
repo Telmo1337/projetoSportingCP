@@ -88,7 +88,7 @@
             "id": "8",
             "titulo": "Leões lançam campanha de sócios histórica",
             "views": 7600,
-            "categoria":"Clube",
+            "categoria": "Clube",
             "data": "2025-04-01",
             "hora": "09:45",
             "imgURL": "/assets/news8.jpg",
@@ -156,15 +156,231 @@
     "jogos": [
         {
             "id": "1",
-            "homeTeam": "Sporting CP",
-            "awayTeam": "FC Porto",
-            "date": "2023-10-01"
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "FC Porto",
+            "data": "2023-08-13"
         },
         {
             "id": "2",
-            "homeTeam": "Benfica",
-            "awayTeam": "Sporting CP",
-            "date": "2023-10-15"
+            "equipaCasa": "Benfica",
+            "equipaFora": "Sporting CP",
+            "data": "2023-08-20"
+        },
+        {
+            "id": "3",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "SC Braga",
+            "data": "2023-08-27"
+        },
+        {
+            "id": "4",
+            "equipaCasa": "Vitória SC",
+            "equipaFora": "Sporting CP",
+            "data": "2023-09-03"
+        },
+        {
+            "id": "5",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Boavista",
+            "data": "2023-09-10"
+        },
+        {
+            "id": "6",
+            "equipaCasa": "Estoril",
+            "equipaFora": "Sporting CP",
+            "data": "2023-09-17"
+        },
+        {
+            "id": "7",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Marítimo",
+            "data": "2023-09-24"
+        },
+        {
+            "id": "8",
+            "equipaCasa": "Portimonense",
+            "equipaFora": "Sporting CP",
+            "data": "2023-10-01"
+        },
+        {
+            "id": "9",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Rio Ave",
+            "data": "2023-10-08"
+        },
+        {
+            "id": "10",
+            "equipaCasa": "Arouca",
+            "equipaFora": "Sporting CP",
+            "data": "2023-10-15"
+        },
+        {
+            "id": "11",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Casa Pia",
+            "data": "2023-10-22"
+        },
+        {
+            "id": "12",
+            "equipaCasa": "Gil Vicente",
+            "equipaFora": "Sporting CP",
+            "data": "2023-10-29"
+        },
+        {
+            "id": "13",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Chaves",
+            "data": "2023-11-05"
+        },
+        {
+            "id": "14",
+            "equipaCasa": "Vizela",
+            "equipaFora": "Sporting CP",
+            "data": "2023-11-12"
+        },
+        {
+            "id": "15",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Famalicão",
+            "data": "2023-11-19"
+        },
+        {
+            "id": "16",
+            "equipaCasa": "Farense",
+            "equipaFora": "Sporting CP",
+            "data": "2023-11-26"
+        },
+        {
+            "id": "17",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Moreirense",
+            "data": "2023-12-03"
+        },
+        {
+            "id": "18",
+            "equipaCasa": "Santa Clara",
+            "equipaFora": "Sporting CP",
+            "data": "2023-12-10"
+        },
+        {
+            "id": "19",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Benfica",
+            "data": "2023-12-17"
+        },
+        {
+            "id": "20",
+            "equipaCasa": "FC Porto",
+            "equipaFora": "Sporting CP",
+            "data": "2024-01-07"
+        },
+        {
+            "id": "21",
+            "equipaCasa": "SC Braga",
+            "equipaFora": "Sporting CP",
+            "data": "2024-01-14"
+        },
+        {
+            "id": "22",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Vitória SC",
+            "data": "2024-01-21"
+        },
+        {
+            "id": "23",
+            "equipaCasa": "Boavista",
+            "equipaFora": "Sporting CP",
+            "data": "2024-01-28"
+        },
+        {
+            "id": "24",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Estoril",
+            "data": "2024-02-04"
+        },
+        {
+            "id": "25",
+            "equipaCasa": "Marítimo",
+            "equipaFora": "Sporting CP",
+            "data": "2024-02-11"
+        },
+        {
+            "id": "26",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Portimonense",
+            "data": "2024-02-18"
+        },
+        {
+            "id": "27",
+            "equipaCasa": "Rio Ave",
+            "equipaFora": "Sporting CP",
+            "data": "2024-02-25"
+        },
+        {
+            "id": "28",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Arouca",
+            "data": "2024-03-03"
+        },
+        {
+            "id": "29",
+            "equipaCasa": "Casa Pia",
+            "equipaFora": "Sporting CP",
+            "data": "2024-03-10"
+        },
+        {
+            "id": "30",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Gil Vicente",
+            "data": "2024-03-17"
+        },
+        {
+            "id": "31",
+            "equipaCasa": "Chaves",
+            "equipaFora": "Sporting CP",
+            "data": "2024-03-24"
+        },
+        {
+            "id": "32",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Vizela",
+            "data": "2024-03-31"
+        },
+        {
+            "id": "33",
+            "equipaCasa": "Famalicão",
+            "equipaFora": "Sporting CP",
+            "data": "2024-04-07"
+        },
+        {
+            "id": "34",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Farense",
+            "data": "2024-04-14"
+        },
+        {
+            "id": "35",
+            "equipaCasa": "Moreirense",
+            "equipaFora": "Sporting CP",
+            "data": "2024-04-21"
+        },
+        {
+            "id": "36",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "Santa Clara",
+            "data": "2024-04-28"
+        },
+        {
+            "id": "37",
+            "equipaCasa": "Benfica",
+            "equipaFora": "Sporting CP",
+            "data": "2024-05-05"
+        },
+        {
+            "id": "38",
+            "equipaCasa": "Sporting CP",
+            "equipaFora": "FC Porto",
+            "data": "2024-05-12"
         }
     ]
 }

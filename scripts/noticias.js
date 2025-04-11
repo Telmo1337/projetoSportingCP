@@ -1,5 +1,5 @@
 //function => fetch noticias
-function fetchNoticias() {
+function fmostrarNoticias() {
 
     noticiasApiURL = 'http://localhost:3000/noticias';
     
@@ -7,13 +7,13 @@ function fetchNoticias() {
       .then((res) => res.json())
       .then((data) => {
     
-        console.log('test: ', data);
+        console.log('teste: ', data);
     
         const noticiasContainer = document.getElementById("noticiasContainer");
     
         data.forEach((n) => {
           const col = document.createElement('div');
-          col.className = 'col-md-6 col-lg-4 col-xl-3';
+          col.className = 'col-md-6 col-lg-4';
         
           col.innerHTML = `
             <div class="card h-100">
@@ -37,4 +37,4 @@ function fetchNoticias() {
         })
       })
     }
-    document.addEventListener('DOMContentLoaded', fetchNoticias);
+document.addEventListener('DOMContentLoaded', fmostrarNoticias);
