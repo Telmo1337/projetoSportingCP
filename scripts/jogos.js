@@ -14,43 +14,43 @@ function mostrarJogos() {
         col.className = 'col-md-6 col-lg-4';
 
         col.innerHTML = `
-           <div class="card shadow">
-  <div class="card-header bg-primary text-white">
-    <h5 class="card-title mb-0">${jogo.data}</h5>
-  </div>
-  <div class="card-body">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <div class="text-center w-100">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="text-center" style="width: 40%">
-            <img src="${jogo.equipaCasa.equipaImagem}" alt="${jogo.equipaCasa.equipaNome}" style="height: 40px;">
-            <br>
-            <span class="fs-5 fw-bold">${jogo.equipaCasa.equipaNome}</span>
-          </div>
-          <div style="width: 20%">
-            <span class="badge bg-secondary mx-2">VS</span>
-          </div>
-          <div class="text-center" style="width: 40%">
-            <img src="${jogo.equipaFora.equipaImagem}" alt="${jogo.equipaFora.equipaNome}" style="height: 40px;">
-            <br>
-            <span class="fs-5 fw-bold">${jogo.equipaFora.equipaNome}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <p class="card-text">
-      <strong>Local:</strong> ${jogo.local}<br>
-      <strong>Horário:</strong> ${jogo.horario}
-    </p>
-    <button 
-      class="btn btn-success w-100 buy-ticket" 
-      data-bs-toggle="modal" 
-      data-bs-target="#ticketModal"
-      data-index="${jogo.id}">
-      Comprar Bilhetes
-    </button>
-  </div>
-</div>
+           <div class="card shadow ">
+              <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">${jogo.data}</h5>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="text-center w-100">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="text-center" style="width: 40%">
+                        <img src="${jogo.equipaCasa.equipaImagem}" alt="${jogo.equipaCasa.equipaNome}" style="height: 40px;">
+                        <br>
+                        <span class="fs-5 fw-bold">${jogo.equipaCasa.equipaNome}</span>
+                      </div>
+                      <div style="width: 20%">
+                        <span class="badge bg-secondary mx-2">VS</span>
+                      </div>
+                      <div class="text-center" style="width: 40%">
+                        <img src="${jogo.equipaFora.equipaImagem}" alt="${jogo.equipaFora.equipaNome}" style="height: 40px;">
+                        <br>
+                        <span class="fs-5 fw-bold">${jogo.equipaFora.equipaNome}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  <strong>Local:</strong> ${jogo.local}<br>
+                  <strong>Horário:</strong> ${jogo.horario}
+                </p>
+                <button 
+                  class="btn btn-success w-100 buy-ticket" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#ticketModal"
+                  data-index="${jogo.id}">
+                  Comprar Bilhetes
+                </button>
+              </div>
+            </div>
 
           `;
 
