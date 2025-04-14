@@ -1,5 +1,5 @@
 //function => fetch noticias
-function fmostrarNoticias() {
+function mostrarNoticias() {
 
     noticiasApiURL = 'http://localhost:3000/noticias';
     
@@ -37,4 +37,4 @@ function fmostrarNoticias() {
         })
       })
     }
-document.addEventListener('DOMContentLoaded', fmostrarNoticias);
+document.addEventListener('DOMContentLoaded', mostrarNoticias);

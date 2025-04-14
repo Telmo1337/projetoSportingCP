@@ -124,17 +124,376 @@
   "jogadores": [
     {
       "id": "1",
-      "name": "Cristiano Ronaldo",
-      "position": "Forward",
-      "age": 36
+      "nome": "Franco Israel",
+      "posição": "Guarda-Redes",
+      "numero": 1,
+      "nacionalidade": "Uruguai",
+      "idade": 24,
+      "altura": "1,90 m",
+      "peso": "81 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/israel.jpg"
     },
     {
       "id": "2",
-      "name": "Lionel Messi",
-      "position": "Forward",
-      "age": 34
+      "nome": "Rui Silva",
+      "posição": "Guarda-Redes",
+      "numero": 24,
+      "nacionalidade": "Portugual",
+      "idade": 31,
+      "altura": "1,91 m",
+      "peso": "91 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/rui_silva.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Diego Calai",
+      "posição": "Guarda-Redes",
+      "numero": 41,
+      "nacionalidade": "Brasil",
+      "idade": 20,
+      "altura": "1,90 m",
+      "peso": "90 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/calai.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Diego Pinto",
+      "posição": "Guarda-Redes",
+      "numero": 51,
+      "nacionalidade": "Portugal",
+      "idade": 20,
+      "altura": "1,94 m",
+      "peso": "89 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/diogo_pinto.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Matheus Reis ",
+      "posição": "Defesa",
+      "numero": 2,
+      "nacionalidade": "Brasil",
+      "idade": 30,
+      "altura": "1,84 m",
+      "peso": "80 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/matheus_reis.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "St. Juste",
+      "posição": "Defesa",
+      "numero": 3,
+      "nacionalidade": "Holanda",
+      "idade": 28,
+      "altura": "1,84 m",
+      "peso": "79 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/st._juste.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "Zeno Debast",
+      "posição": "Defesa",
+      "numero": 6,
+      "nacionalidade": "Bélgica",
+      "idade": 21,
+      "altura": "1,91 m",
+      "peso": "76 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/debast.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Iván Fresneda",
+      "posição": "Defesa",
+      "numero": 22,
+      "nacionalidade": "Espanha",
+      "idade": 20,
+      "altura": "1,81 m",
+      "peso": "79 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/fresneda.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Gonçalo Inácio",
+      "posição": "Defesa",
+      "numero": 25,
+      "nacionalidade": "Portugal",
+      "idade": 23,
+      "altura": "1,85 m",
+      "peso": "81 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/inacio.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "Ousmane Diomande",
+      "posição": "Defesa",
+      "numero": 26,
+      "nacionalidade": "Costa do Marfim",
+      "idade": 21,
+      "altura": "1,88 m",
+      "peso": "93 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/diomande.jpg"
+    },
+    {
+      "id": "11",
+      "nome": "Ricardo Esgaio",
+      "posição": "Defesa",
+      "numero": 47,
+      "nacionalidade": "Portugal",
+      "idade": 31,
+      "altura": "1,72 m",
+      "peso": "72 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/esgaio.jpg"
+    },
+    {
+      "id": "12",
+      "nome": "Eduardo Quaresma",
+      "posição": "Defesa",
+      "numero": 72,
+      "nacionalidade": "Portugal",
+      "idade": 23,
+      "altura": "1,83 m",
+      "peso": "79 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/quaresma.jpg"
+    },
+    {
+      "id": "13",
+      "nome": "Hidemasa Morita",
+      "posição": "Médio",
+      "numero": 5,
+      "nacionalidade": "Japão",
+      "idade": 29,
+      "altura": "1,77 m",
+      "peso": "76 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/morita.jpg"
+    },
+    {
+      "id": "14",
+      "nome": "Pedro Gonçalves",
+      "posição": "Médio",
+      "numero": 8,
+      "nacionalidade": "Portugal",
+      "idade": 26,
+      "altura": "1,73 m",
+      "peso": "78 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/pote.jpg"
+    },
+    {
+      "id": "15",
+      "nome": "Daniel Bragança",
+      "posição": "Médio",
+      "numero": 23,
+      "nacionalidade": "Portugal",
+      "idade": 25,
+      "altura": "1,78 m",
+      "peso": "72 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/braganca.jpg"
+    },
+    {
+      "id": "16",
+      "nome": "Morten Hjulmand",
+      "posição": "Médio",
+      "numero": 42,
+      "nacionalidade": "Dinamarca",
+      "idade": 25,
+      "altura": "1,85 m",
+      "peso": "78 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/morten.jpg"
+    },
+    {
+      "id": "17",
+      "nome": "João Simões",
+      "posição": "Médio",
+      "numero": 52,
+      "nacionalidade": "Portugal",
+      "idade": 18,
+      "altura": "1,75 m",
+      "peso": "71 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/joao_simoes.jpg"
+    },
+    {
+      "id": "18",
+      "nome": "Viktor Gyökeres",
+      "posição": "Avançado",
+      "numero": 9,
+      "nacionalidade": "Suécia",
+      "idade": 26,
+      "altura": "1,89 m",
+      "peso": "94 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/gyokeres.jpg"
+    },
+    {
+      "id": "19",
+      "nome": "Nuno Santos",
+      "posição": "Avançado",
+      "numero": 11,
+      "nacionalidade": "Portugal",
+      "idade": 30,
+      "altura": "1,77 m",
+      "peso": "71 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/nuno_santos.jpg"
+    },
+    {
+      "id": "20",
+      "nome": "Francisco Trincão",
+      "posição": "Avançado",
+      "numero": 17,
+      "nacionalidade": "Portugal",
+      "idade": 25,
+      "altura": "1,84 m",
+      "peso": "74 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/trincao.jpg"
+    },
+    {
+      "id": "21",
+      "nome": "Conrad Harder",
+      "posição": "Avançado",
+      "numero": 19,
+      "nacionalidade": "Dinamarca",
+      "idade": 20,
+      "altura": "1,85 m",
+      "peso": "84 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202410/harder.jpg"
+    },
+    {
+      "id": "22",
+      "nome": "Maxi Araújo",
+      "posição": "Avançado",
+      "numero": 20,
+      "nacionalidade": "Uruguai",
+      "idade": 25,
+      "altura": "1,76 m",
+      "peso": "75 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202410/maxi_2.jpg"
+    },
+    {
+      "id": "23",
+      "nome": "Geny Catamo",
+      "posição": "Avançado",
+      "numero": 21,
+      "nacionalidade": "Moçambique",
+      "idade": 24,
+      "altura": "1,73 m",
+      "peso": "71 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/geny_catamo.jpg"
+    },
+    {
+      "id": "24",
+      "nome": "Biel",
+      "posição": "Avançado",
+      "numero": 30,
+      "nacionalidade": "Brasil",
+      "idade": 24,
+      "altura": "1,70 m",
+      "peso": "62 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/biel.jpg"
+    },
+    {
+      "id": "25",
+      "nome": "Geovany Quenda",
+      "posição": "Avançado",
+      "numero": 57,
+      "nacionalidade": "Portugal",
+      "idade": 17,
+      "altura": "1,72 m",
+      "peso": "71 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/quenda.jpg"
+    },
+    {
+      "id": "26",
+      "nome": "Afonso Moreira",
+      "posição": "Avançado",
+      "numero": 90,
+      "nacionalidade": "Portugal",
+      "idade": 20,
+      "altura": "1,76 m",
+      "peso": "72 kg",
+      "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/afonso_moreira.jpg"
+    }
+   
+  ],
+
+  "equipaTecnica": [
+    {
+      "id": "1",
+      "nome": "Rui Borges",
+      "cargo": "Treinador Principal",
+      "nacionalidade": "Portugal",
+      "idade": 43,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/rui_borges.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Tiago Aguiar",
+      "cargo": "Treinador Adjunto",
+      "nacionalidade": "Portugal",
+      "idade": 36,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/tiago_aguiar.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Ricardo Chaves",
+      "cargo": "Treinador Adjunto",
+      "nacionalidade": "Portugal",
+      "idade": 47,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/ricardo_chaves.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Luís Neto",
+      "cargo": "Treinador Adjunto",
+      "nacionalidade": "Portugal",
+      "idade": 36,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/luis_neto.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Fernando Morato",
+      "cargo": "Preparador Físico",
+      "nacionalidade": "Portugal",
+      "idade": 29,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/fernando_morato.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "Gonçalo Álvaro",
+      "cargo": "Preparador Físico",
+      "nacionalidade": "Portugal",
+      "idade": 48,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st4.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "José Meireles",
+      "cargo": "Analista de Desempenho",
+      "nacionalidade": "Portugal",
+      "idade": 32,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/jose_meireles.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Pedro Cardoso",
+      "cargo": "Utilizador de Performance",
+      "nacionalidade": "Portugal",
+      "idade": 35,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/pedro_cardoso.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Tiago Ferreira",
+      "cargo": "Treinador de Guarda-Redes",
+      "nacionalidade": "Portugal",
+      "idade": 49,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st3.jpg"
+    },
+    {
+      "id": "10",
+      "nome": "Hugo Tecelão",
+      "cargo": "Treinador de Guarda-Redes",
+      "nacionalidade": "Portugal",
+      "idade": 41,
+      "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/hugo_tecelao.jpg"
     }
   ],
+
   "trofeus": [
     {
       "id": "1",
@@ -447,18 +806,6 @@
       "nomeLiga": "Taça das Taças",
       "ano": 1964,
       "descrição": "Vencedor da Taça dos Vencedores das Taças da UEFA"
-    }
-  ],
-  "equipas": [
-    {
-      "id": "1",
-      "name": "Sporting CP",
-      "country": "Portugal"
-    },
-    {
-      "id": "2",
-      "name": "FC Porto",
-      "country": "Portugal"
     }
   ],
   "jogos": [
