@@ -1,694 +1,942 @@
 {
-    "noticias": [
-        {
-            "id": "1",
-            "titulo": "Cristiano Ronaldo regressa ao Sporting!",
-            "views": 25432,
-            "categoria": "Equipa Principal",
-            "data": "2025-04-10",
-            "hora": "10:00",
-            "imgURL": "/assets/news1.jpg",
-            "description": "CR7 volta a casa para terminar a carreira em Alvalade.",
-            "content": "Aos 40 anos, Cristiano Ronaldo regressa ao Sporting CP, 21 anos após ter saído para o Manchester United. O craque português assinou contrato até 2026.",
-            "link": "https://example.com/news/cr7-regressa"
-        },
-        {
-            "id": "2",
-            "titulo": "Gyökeres renova até 2028",
-            "views": 13987,
-            "categoria": "Equipa Principal",
-            "data": "2025-04-08",
-            "hora": "14:30",
-            "imgURL": "/assets/news2.jpg",
-            "description": "O avançado sueco prolonga o contrato com os leões.",
-            "content": "O Sporting anunciou hoje a renovação de Viktor Gyökeres, que fica ligado ao clube até 2028 com uma cláusula de rescisão de 100 milhões de euros.",
-            "link": "https://example.com/news/gyokeres-renova"
-        },
-        {
-            "id": "3",
-            "titulo": "Sporting vence dérbi com golo nos descontos",
-            "views": 20345,
-            "categoria": "Equipa Principal",
-            "data": "2025-03-29",
-            "hora": "21:15",
-            "imgURL": "/assets/news3.jpg",
-            "description": "Leões vencem o Benfica por 2-1 em Alvalade.",
-            "content": "O Sporting garantiu uma vitória dramática sobre o Benfica com um golo de Trincão aos 90+3, mantendo-se firme na corrida pelo título.",
-            "link": "https://example.com/news/vitoria-derbi"
-        },
-        {
-            "id": "4",
-            "titulo": "Nova promessa da formação estreia-se pela equipa principal",
-            "views": 8721,
-            "categoria": "Clube",
-            "data": "2025-04-05",
-            "hora": "19:00",
-            "imgURL": "https://example.com/images/promessa.jpg",
-            "description": "Telmo Regalado, estreia-se com assistência.",
-            "content": "A jovem promessa Telmo Regalado teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
-            "link": "https://example.com/news/estreia-tiago"
-        },
-        {
-            "id": "5",
-            "titulo": "Sporting conquista Taça de Portugal",
-            "views": 31450,
-            "categoria": "Equipa Principal",
-            "data": "2025-05-26",
-            "hora": "17:45",
-            "imgURL": "/assets/news5.jpg",
-            "description": "Leões vencem o Braga por 3-0 na final da Taça.",
-            "content": "Com golos de Pote, Gyökeres e Morita, o Sporting conquistou a 18.ª Taça de Portugal da sua história, num Estádio do Jamor pintado de verde e branco.",
-            "link": "https://example.com/news/taca-vitoria"
-        },
-        {
-            "id": "6",
-            "titulo": "Pedro Gonçalves rejeita ofertas milionárias",
-            "views": 19400,
-            "categoria": "Equipa Principal",
-            "data": "2025-03-20",
-            "hora": "16:00",
-            "imgURL": "/assets/news6.jpg",
-            "description": "Pote decide continuar no Sporting apesar de interesse estrangeiro.",
-            "content": "O médio criativo recusou propostas da Premier League para continuar em Alvalade, reforçando o compromisso com o projeto leonino.",
-            "link": "https://example.com/news/pote-fica"
-        },
-        {
-            "id": "7",
-            "titulo": "Sporting estreia novo equipamento para 2025/26",
-            "views": 11500,
-            "categoria": "Clube",
-            "data": "2025-04-02",
-            "hora": "11:30",
-            "imgURL": "/assets/news7.png",
-            "description": "Novo design traz de volta detalhes clássicos.",
-            "content": "O Sporting revelou hoje os novos equipamentos para a próxima época, com inspiração no clássico de 2000 e tecidos ecológicos.",
-            "link": "https://example.com/news/novo-equipamento"
-        },
-        {
-            "id": "8",
-            "titulo": "Leões lançam campanha de sócios histórica",
-            "views": 7600,
-            "categoria": "Clube",
-            "data": "2025-04-01",
-            "hora": "09:45",
-            "imgURL": "/assets/news8.jpg",
-            "description": "Campanha quer atrair 20 mil novos sócios até ao verão.",
-            "content": "Com o lema 'Mais fortes juntos', o Sporting lança uma campanha com descontos, experiências exclusivas e prioridade em bilhetes.",
-            "link": "https://example.com/news/campanha-socios"
-        },
-        {
-            "id": "9",
-            "titulo": "Equipa técnica do Sporting recebe prémio europeu",
-            "views": 6300,
-            "categoria": "Clube",
-            "data": "2025-03-25",
-            "hora": "13:00",
-            "imgURL": "/assets/news9.png",
-            "description": "Rúben Amorim e equipa técnica distinguidos pela UEFA.",
-            "content": "A UEFA atribuiu o prémio de inovação tática à equipa técnica do Sporting, destacando o modelo de jogo e gestão de jovens talentos.",
-            "link": "https://example.com/news/premio-uefa"
-        },
-        {
-            "id": "10",
-            "titulo": "Sporting inaugura nova loja oficial em Lisboa",
-            "views": 4890,
-            "categoria": "Clube",
-            "data": "2025-04-09",
-            "hora": "15:30",
-            "imgURL": "/assets/news10.jpg",
-            "description": "Nova loja traz conceito moderno e experiências digitais.",
-            "content": "O Sporting abriu uma loja conceito na Baixa de Lisboa, com zona de personalização, realidade aumentada e experiências interativas para adeptos.",
-            "link": "https://example.com/news/nova-loja"
-        }
-    ],
-    "jogadores": [
-        {
-            "id": "1",
-            "name": "Cristiano Ronaldo",
-            "position": "Forward",
-            "age": 36
-        },
-        {
-            "id": "2",
-            "name": "Lionel Messi",
-            "position": "Forward",
-            "age": 34
-        }
-    ],
-    "trofeus": [
-        {
-            "id": "1",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1941,
-            "descrição": "Campeão nacional da época 1940/41"
-        },
-        {
-            "id": "2",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1944,
-            "descrição": "Campeão nacional da época 1943/44"
-        },
-        {
-            "id": "3",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1947,
-            "descrição": "Campeão nacional da época 1946/47"
-        },
-        {
-            "id": "4",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1948,
-            "descrição": "Campeão nacional da época 1947/48"
-        },
-        {
-            "id": "5",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1949,
-            "descrição": "Campeão nacional da época 1948/49"
-        },
-        {
-            "id": "6",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1951,
-            "descrição": "Campeão nacional da época 1950/51"
-        },
-        {
-            "id": "7",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1952,
-            "descrição": "Campeão nacional da época 1951/52"
-        },
-        {
-            "id": "8",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1953,
-            "descrição": "Campeão nacional da época 1952/53"
-        },
-        {
-            "id": "9",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1954,
-            "descrição": "Campeão nacional da época 1953/54"
-        },
-        {
-            "id": "10",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1958,
-            "descrição": "Campeão nacional da época 1957/58"
-        },
-        {
-            "id": "11",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1962,
-            "descrição": "Campeão nacional da época 1961/62"
-        },
-        {
-            "id": "12",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1966,
-            "descrição": "Campeão nacional da época 1965/66"
-        },
-        {
-            "id": "13",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1970,
-            "descrição": "Campeão nacional da época 1969/70"
-        },
-        {
-            "id": "14",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1974,
-            "descrição": "Campeão nacional da época 1973/74"
-        },
-        {
-            "id": "15",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1980,
-            "descrição": "Campeão nacional da época 1979/80"
-        },
-        {
-            "id": "16",
-            "nomeLiga": "Primeira Liga",
-            "ano": 1982,
-            "descrição": "Campeão nacional da época 1981/82"
-        },
-        {
-            "id": "17",
-            "nomeLiga": "Primeira Liga",
-            "ano": 2000,
-            "descrição": "Campeão nacional da época 1999/00"
-        },
-        {
-            "id": "18",
-            "nomeLiga": "Primeira Liga",
-            "ano": 2002,
-            "descrição": "Campeão nacional da época 2001/02"
-        },
-        {
-            "id": "19",
-            "nomeLiga": "Primeira Liga",
-            "ano": 2021,
-            "descrição": "Campeão nacional da época 2020/21"
-        },
-        {
-            "id": "20",
-            "nomeLiga": "Primeira Liga",
-            "ano": 2024,
-            "descrição": "Campeão nacional da época 2023/24"
-        },
-        {
-            "id": "21",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1941,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "22",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1945,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "23",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1946,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "24",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1948,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "25",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1954,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "26",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1963,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "27",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1971,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "28",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1973,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "29",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1974,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "30",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1978,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "31",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1982,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "32",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 1995,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "33",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 2002,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "34",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 2007,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "35",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 2008,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "36",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 2015,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "37",
-            "nomeLiga": "Taça de Portugal",
-            "ano": 2019,
-            "descrição": "Vencedor da Taça de Portugal"
-        },
-        {
-            "id": "38",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 1982,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "39",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 1987,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "40",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 1995,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "41",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2000,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "42",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2002,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "43",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2007,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "44",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2008,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "45",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2016,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "46",
-            "nomeLiga": "Supertaça Cândido de Oliveira",
-            "ano": 2021,
-            "descrição": "Vencedor da Supertaça"
-        },
-        {
-            "id": "47",
-            "nomeLiga": "Taça da Liga",
-            "ano": 2018,
-            "descrição": "Vencedor da Taça da Liga"
-        },
-        {
-            "id": "48",
-            "nomeLiga": "Taça da Liga",
-            "ano": 2019,
-            "descrição": "Vencedor da Taça da Liga"
-        },
-        {
-            "id": "49",
-            "nomeLiga": "Taça da Liga",
-            "ano": 2021,
-            "descrição": "Vencedor da Taça da Liga"
-        },
-        {
-            "id": "50",
-            "nomeLiga": "Taça da Liga",
-            "ano": 2022,
-            "descrição": "Vencedor da Taça da Liga"
-        },
-        {
-            "id": "51",
-            "nomeLiga": "Taça Império",
-            "ano": 1944,
-            "descrição": "Vencedor da Taça Império, competição única da época"
-        },
-        {
-            "id": "52",
-            "nomeLiga": "Taça das Taças",
-            "ano": 1964,
-            "descrição": "Vencedor da Taça dos Vencedores das Taças da UEFA"
-        }
-    ],
-    "equipas": [
-        {
-            "id": "1",
-            "name": "Sporting CP",
-            "country": "Portugal"
-        },
-        {
-            "id": "2",
-            "name": "FC Porto",
-            "country": "Portugal"
-        }
-    ],
-    "jogos": [
-        {
-            "id": "1",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "FC Porto",
-            "data": "2023-08-13"
-        },
-        {
-            "id": "2",
-            "equipaCasa": "Benfica",
-            "equipaFora": "Sporting CP",
-            "data": "2023-08-20"
-        },
-        {
-            "id": "3",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "SC Braga",
-            "data": "2023-08-27"
-        },
-        {
-            "id": "4",
-            "equipaCasa": "Vitória SC",
-            "equipaFora": "Sporting CP",
-            "data": "2023-09-03"
-        },
-        {
-            "id": "5",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Boavista",
-            "data": "2023-09-10"
-        },
-        {
-            "id": "6",
-            "equipaCasa": "Estoril",
-            "equipaFora": "Sporting CP",
-            "data": "2023-09-17"
-        },
-        {
-            "id": "7",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Marítimo",
-            "data": "2023-09-24"
-        },
-        {
-            "id": "8",
-            "equipaCasa": "Portimonense",
-            "equipaFora": "Sporting CP",
-            "data": "2023-10-01"
-        },
-        {
-            "id": "9",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Rio Ave",
-            "data": "2023-10-08"
-        },
-        {
-            "id": "10",
-            "equipaCasa": "Arouca",
-            "equipaFora": "Sporting CP",
-            "data": "2023-10-15"
-        },
-        {
-            "id": "11",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Casa Pia",
-            "data": "2023-10-22"
-        },
-        {
-            "id": "12",
-            "equipaCasa": "Gil Vicente",
-            "equipaFora": "Sporting CP",
-            "data": "2023-10-29"
-        },
-        {
-            "id": "13",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Chaves",
-            "data": "2023-11-05"
-        },
-        {
-            "id": "14",
-            "equipaCasa": "Vizela",
-            "equipaFora": "Sporting CP",
-            "data": "2023-11-12"
-        },
-        {
-            "id": "15",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Famalicão",
-            "data": "2023-11-19"
-        },
-        {
-            "id": "16",
-            "equipaCasa": "Farense",
-            "equipaFora": "Sporting CP",
-            "data": "2023-11-26"
-        },
-        {
-            "id": "17",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Moreirense",
-            "data": "2023-12-03"
-        },
-        {
-            "id": "18",
-            "equipaCasa": "Santa Clara",
-            "equipaFora": "Sporting CP",
-            "data": "2023-12-10"
-        },
-        {
-            "id": "19",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Benfica",
-            "data": "2023-12-17"
-        },
-        {
-            "id": "20",
-            "equipaCasa": "FC Porto",
-            "equipaFora": "Sporting CP",
-            "data": "2024-01-07"
-        },
-        {
-            "id": "21",
-            "equipaCasa": "SC Braga",
-            "equipaFora": "Sporting CP",
-            "data": "2024-01-14"
-        },
-        {
-            "id": "22",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Vitória SC",
-            "data": "2024-01-21"
-        },
-        {
-            "id": "23",
-            "equipaCasa": "Boavista",
-            "equipaFora": "Sporting CP",
-            "data": "2024-01-28"
-        },
-        {
-            "id": "24",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Estoril",
-            "data": "2024-02-04"
-        },
-        {
-            "id": "25",
-            "equipaCasa": "Marítimo",
-            "equipaFora": "Sporting CP",
-            "data": "2024-02-11"
-        },
-        {
-            "id": "26",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Portimonense",
-            "data": "2024-02-18"
-        },
-        {
-            "id": "27",
-            "equipaCasa": "Rio Ave",
-            "equipaFora": "Sporting CP",
-            "data": "2024-02-25"
-        },
-        {
-            "id": "28",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Arouca",
-            "data": "2024-03-03"
-        },
-        {
-            "id": "29",
-            "equipaCasa": "Casa Pia",
-            "equipaFora": "Sporting CP",
-            "data": "2024-03-10"
-        },
-        {
-            "id": "30",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Gil Vicente",
-            "data": "2024-03-17"
-        },
-        {
-            "id": "31",
-            "equipaCasa": "Chaves",
-            "equipaFora": "Sporting CP",
-            "data": "2024-03-24"
-        },
-        {
-            "id": "32",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Vizela",
-            "data": "2024-03-31"
-        },
-        {
-            "id": "33",
-            "equipaCasa": "Famalicão",
-            "equipaFora": "Sporting CP",
-            "data": "2024-04-07"
-        },
-        {
-            "id": "34",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Farense",
-            "data": "2024-04-14"
-        },
-        {
-            "id": "35",
-            "equipaCasa": "Moreirense",
-            "equipaFora": "Sporting CP",
-            "data": "2024-04-21"
-        },
-        {
-            "id": "36",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "Santa Clara",
-            "data": "2024-04-28"
-        },
-        {
-            "id": "37",
-            "equipaCasa": "Benfica",
-            "equipaFora": "Sporting CP",
-            "data": "2024-05-05"
-        },
-        {
-            "id": "38",
-            "equipaCasa": "Sporting CP",
-            "equipaFora": "FC Porto",
-            "data": "2024-05-12"
-        }
-    ]
+  "noticias": [
+    {
+      "id": "1",
+      "titulo": "Cristiano Ronaldo regressa ao Sporting!",
+      "views": 25432,
+      "categoria": "Equipa Principal",
+      "data": "2025-04-10",
+      "hora": "10:00",
+      "imgURL": "/assets/news1.jpg",
+      "description": "CR7 volta a casa para terminar a carreira em Alvalade.",
+      "content": "Aos 40 anos, Cristiano Ronaldo regressa ao Sporting CP, 21 anos após ter saído para o Manchester United. O craque português assinou contrato até 2026.",
+      "link": "https://example.com/news/cr7-regressa"
+    },
+    {
+      "id": "2",
+      "titulo": "Gyökeres renova até 2028",
+      "views": 13987,
+      "categoria": "Equipa Principal",
+      "data": "2025-04-08",
+      "hora": "14:30",
+      "imgURL": "/assets/news2.jpg",
+      "description": "O avançado sueco prolonga o contrato com os leões.",
+      "content": "O Sporting anunciou hoje a renovação de Viktor Gyökeres, que fica ligado ao clube até 2028 com uma cláusula de rescisão de 100 milhões de euros.",
+      "link": "https://example.com/news/gyokeres-renova"
+    },
+    {
+      "id": "3",
+      "titulo": "Sporting vence dérbi com golo nos descontos",
+      "views": 20345,
+      "categoria": "Equipa Principal",
+      "data": "2025-03-29",
+      "hora": "21:15",
+      "imgURL": "/assets/news3.jpg",
+      "description": "Leões vencem o Benfica por 2-1 em Alvalade.",
+      "content": "O Sporting garantiu uma vitória dramática sobre o Benfica com um golo de Trincão aos 90+3, mantendo-se firme na corrida pelo título.",
+      "link": "https://example.com/news/vitoria-derbi"
+    },
+    {
+      "id": "4",
+      "titulo": "Nova promessa da formação estreia-se pela equipa principal",
+      "views": 8721,
+      "categoria": "Clube",
+      "data": "2025-04-05",
+      "hora": "19:00",
+      "imgURL": "https://example.com/images/promessa.jpg",
+      "description": "Telmo Regalado, estreia-se com assistência.",
+      "content": "A jovem promessa Telmo Regalado teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
+      "link": "https://example.com/news/estreia-tiago"
+    },
+    {
+      "id": "5",
+      "titulo": "Sporting conquista Taça de Portugal",
+      "views": 31450,
+      "categoria": "Equipa Principal",
+      "data": "2025-05-26",
+      "hora": "17:45",
+      "imgURL": "/assets/news5.jpg",
+      "description": "Leões vencem o Braga por 3-0 na final da Taça.",
+      "content": "Com golos de Pote, Gyökeres e Morita, o Sporting conquistou a 18.ª Taça de Portugal da sua história, num Estádio do Jamor pintado de verde e branco.",
+      "link": "https://example.com/news/taca-vitoria"
+    },
+    {
+      "id": "6",
+      "titulo": "Pedro Gonçalves rejeita ofertas milionárias",
+      "views": 19400,
+      "categoria": "Equipa Principal",
+      "data": "2025-03-20",
+      "hora": "16:00",
+      "imgURL": "/assets/news6.jpg",
+      "description": "Pote decide continuar no Sporting apesar de interesse estrangeiro.",
+      "content": "O médio criativo recusou propostas da Premier League para continuar em Alvalade, reforçando o compromisso com o projeto leonino.",
+      "link": "https://example.com/news/pote-fica"
+    },
+    {
+      "id": "7",
+      "titulo": "Sporting estreia novo equipamento para 2025/26",
+      "views": 11500,
+      "categoria": "Clube",
+      "data": "2025-04-02",
+      "hora": "11:30",
+      "imgURL": "/assets/news7.png",
+      "description": "Novo design traz de volta detalhes clássicos.",
+      "content": "O Sporting revelou hoje os novos equipamentos para a próxima época, com inspiração no clássico de 2000 e tecidos ecológicos.",
+      "link": "https://example.com/news/novo-equipamento"
+    },
+    {
+      "id": "8",
+      "titulo": "Leões lançam campanha de sócios histórica",
+      "views": 7600,
+      "categoria": "Clube",
+      "data": "2025-04-01",
+      "hora": "09:45",
+      "imgURL": "/assets/news8.jpg",
+      "description": "Campanha quer atrair 20 mil novos sócios até ao verão.",
+      "content": "Com o lema 'Mais fortes juntos', o Sporting lança uma campanha com descontos, experiências exclusivas e prioridade em bilhetes.",
+      "link": "https://example.com/news/campanha-socios"
+    },
+    {
+      "id": "9",
+      "titulo": "Equipa técnica do Sporting recebe prémio europeu",
+      "views": 6300,
+      "categoria": "Clube",
+      "data": "2025-03-25",
+      "hora": "13:00",
+      "imgURL": "/assets/news9.png",
+      "description": "Rúben Amorim e equipa técnica distinguidos pela UEFA.",
+      "content": "A UEFA atribuiu o prémio de inovação tática à equipa técnica do Sporting, destacando o modelo de jogo e gestão de jovens talentos.",
+      "link": "https://example.com/news/premio-uefa"
+    },
+    {
+      "id": "10",
+      "titulo": "Sporting inaugura nova loja oficial em Lisboa",
+      "views": 4890,
+      "categoria": "Clube",
+      "data": "2025-04-09",
+      "hora": "15:30",
+      "imgURL": "/assets/news10.jpg",
+      "description": "Nova loja traz conceito moderno e experiências digitais.",
+      "content": "O Sporting abriu uma loja conceito na Baixa de Lisboa, com zona de personalização, realidade aumentada e experiências interativas para adeptos.",
+      "link": "https://example.com/news/nova-loja"
+    }
+  ],
+  "jogadores": [
+    {
+      "id": "1",
+      "name": "Cristiano Ronaldo",
+      "position": "Forward",
+      "age": 36
+    },
+    {
+      "id": "2",
+      "name": "Lionel Messi",
+      "position": "Forward",
+      "age": 34
+    }
+  ],
+  "trofeus": [
+    {
+      "id": "1",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1941,
+      "descrição": "Campeão nacional da época 1940/41"
+    },
+    {
+      "id": "2",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1944,
+      "descrição": "Campeão nacional da época 1943/44"
+    },
+    {
+      "id": "3",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1947,
+      "descrição": "Campeão nacional da época 1946/47"
+    },
+    {
+      "id": "4",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1948,
+      "descrição": "Campeão nacional da época 1947/48"
+    },
+    {
+      "id": "5",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1949,
+      "descrição": "Campeão nacional da época 1948/49"
+    },
+    {
+      "id": "6",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1951,
+      "descrição": "Campeão nacional da época 1950/51"
+    },
+    {
+      "id": "7",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1952,
+      "descrição": "Campeão nacional da época 1951/52"
+    },
+    {
+      "id": "8",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1953,
+      "descrição": "Campeão nacional da época 1952/53"
+    },
+    {
+      "id": "9",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1954,
+      "descrição": "Campeão nacional da época 1953/54"
+    },
+    {
+      "id": "10",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1958,
+      "descrição": "Campeão nacional da época 1957/58"
+    },
+    {
+      "id": "11",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1962,
+      "descrição": "Campeão nacional da época 1961/62"
+    },
+    {
+      "id": "12",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1966,
+      "descrição": "Campeão nacional da época 1965/66"
+    },
+    {
+      "id": "13",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1970,
+      "descrição": "Campeão nacional da época 1969/70"
+    },
+    {
+      "id": "14",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1974,
+      "descrição": "Campeão nacional da época 1973/74"
+    },
+    {
+      "id": "15",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1980,
+      "descrição": "Campeão nacional da época 1979/80"
+    },
+    {
+      "id": "16",
+      "nomeLiga": "Primeira Liga",
+      "ano": 1982,
+      "descrição": "Campeão nacional da época 1981/82"
+    },
+    {
+      "id": "17",
+      "nomeLiga": "Primeira Liga",
+      "ano": 2000,
+      "descrição": "Campeão nacional da época 1999/00"
+    },
+    {
+      "id": "18",
+      "nomeLiga": "Primeira Liga",
+      "ano": 2002,
+      "descrição": "Campeão nacional da época 2001/02"
+    },
+    {
+      "id": "19",
+      "nomeLiga": "Primeira Liga",
+      "ano": 2021,
+      "descrição": "Campeão nacional da época 2020/21"
+    },
+    {
+      "id": "20",
+      "nomeLiga": "Primeira Liga",
+      "ano": 2024,
+      "descrição": "Campeão nacional da época 2023/24"
+    },
+    {
+      "id": "21",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1941,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "22",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1945,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "23",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1946,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "24",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1948,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "25",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1954,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "26",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1963,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "27",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1971,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "28",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1973,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "29",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1974,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "30",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1978,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "31",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1982,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "32",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 1995,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "33",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 2002,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "34",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 2007,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "35",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 2008,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "36",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 2015,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "37",
+      "nomeLiga": "Taça de Portugal",
+      "ano": 2019,
+      "descrição": "Vencedor da Taça de Portugal"
+    },
+    {
+      "id": "38",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 1982,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "39",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 1987,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "40",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 1995,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "41",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2000,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "42",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2002,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "43",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2007,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "44",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2008,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "45",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2016,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "46",
+      "nomeLiga": "Supertaça Cândido de Oliveira",
+      "ano": 2021,
+      "descrição": "Vencedor da Supertaça"
+    },
+    {
+      "id": "47",
+      "nomeLiga": "Taça da Liga",
+      "ano": 2018,
+      "descrição": "Vencedor da Taça da Liga"
+    },
+    {
+      "id": "48",
+      "nomeLiga": "Taça da Liga",
+      "ano": 2019,
+      "descrição": "Vencedor da Taça da Liga"
+    },
+    {
+      "id": "49",
+      "nomeLiga": "Taça da Liga",
+      "ano": 2021,
+      "descrição": "Vencedor da Taça da Liga"
+    },
+    {
+      "id": "50",
+      "nomeLiga": "Taça da Liga",
+      "ano": 2022,
+      "descrição": "Vencedor da Taça da Liga"
+    },
+    {
+      "id": "51",
+      "nomeLiga": "Taça Império",
+      "ano": 1944,
+      "descrição": "Vencedor da Taça Império, competição única da época"
+    },
+    {
+      "id": "52",
+      "nomeLiga": "Taça das Taças",
+      "ano": 1964,
+      "descrição": "Vencedor da Taça dos Vencedores das Taças da UEFA"
+    }
+  ],
+  "equipas": [
+    {
+      "id": "1",
+      "name": "Sporting CP",
+      "country": "Portugal"
+    },
+    {
+      "id": "2",
+      "name": "FC Porto",
+      "country": "Portugal"
+    }
+  ],
+  "jogos": [
+    {
+      "id": "1",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "FC Porto",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/xu47rb1628855600.png"
+      },
+      "data": "2023-08-13",
+      "horario": "2023-08-13T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "2",
+      "equipaCasa": {
+        "equipaNome": "SL Benfica",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/0pywy21662316682.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-08-20",
+      "horario": "2023-08-20T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "3",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "SC Braga",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/8g4aod1678717261.png"
+      },
+      "data": "2023-08-27",
+      "horario": "2023-08-27T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "4",
+      "equipaCasa": {
+        "equipaNome": "Vitória SC",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/af52z61628855707.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-09-03",
+      "horario": "2023-09-03T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "5",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Boavista",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/usi98v1628853974.png"
+      },
+      "data": "2023-09-10",
+      "horario": "2023-09-10T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "6",
+      "equipaCasa": {
+        "equipaNome": "Estoril",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/lq9h8m1628854051.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-09-17",
+      "horario": "2023-09-17T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "7",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Santa Clara",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/7337a61724860742.png"
+      },
+      "data": "2023-09-24",
+      "horario": "2023-09-24T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "8",
+      "equipaCasa": {
+        "equipaNome": "Famalicão",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/a3f4er1563653256.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-10-01",
+      "horario": "2023-10-01T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "9",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Casa Pia",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/d8ugsc1678717133.png"
+      },
+      "data": "2023-10-08",
+      "horario": "2023-10-08T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "10",
+      "equipaCasa": {
+        "equipaNome": "Arouca",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/vgbzjq1628853833.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-10-15",
+      "horario": "2023-10-15T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "11",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Moreirense",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/yrquxu1471878153.png"
+      },
+      "data": "2023-10-22",
+      "horario": "2023-10-22T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "12",
+      "equipaCasa": {
+        "equipaNome": "Rio Ave",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ngbklq1628851239.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-10-29",
+      "horario": "2023-10-29T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "13",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Nacional",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/vgbzjq1628853833.png"
+      },
+      "data": "2023-11-05",
+      "horario": "2023-11-05T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "14",
+      "equipaCasa": {
+        "equipaNome": "Gil Vicente",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/88bsg41626201503.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-11-12",
+      "horario": "2023-11-12T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "15",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Estrela Amadora",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/2tx5621626095555.png"
+      },
+      "data": "2023-11-19",
+      "horario": "2023-11-19T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "16",
+      "equipaCasa": {
+        "equipaNome": "Farense",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/0a09qc1690493592.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-11-26",
+      "horario": "2023-11-26T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "17",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "AVS SAD",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/xp8oqb1688676544.png"
+      },
+      "data": "2023-12-03",
+      "horario": "2023-12-03T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "18",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "FC Porto",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/xu47rb1628855600.png"
+      },
+      "data": "2023-12-10",
+      "horario": "2023-12-10T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "19",
+      "equipaCasa": {
+        "equipaNome": "SL Benfica",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/0pywy21662316682.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-12-17",
+      "horario": "2023-12-17T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "20",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "SC Braga",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/8g4aod1678717261.png"
+      },
+      "data": "2023-12-23",
+      "horario": "2023-12-23T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "21",
+      "equipaCasa": {
+        "equipaNome": "Vitória SC",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/af52z61628855707.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2023-12-30",
+      "horario": "2023-12-30T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "22",
+      "equipaCasa": {
+        "equipaNome": "Boavista",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/usi98v1628853974.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-01-07",
+      "horario": "2024-01-07T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "23",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Estoril",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/lq9h8m1628854051.png"
+      },
+      "data": "2024-01-14",
+      "horario": "2024-01-14T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "24",
+      "equipaCasa": {
+        "equipaNome": "Santa Clara",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/7337a61724860742.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-01-21",
+      "horario": "2024-01-21T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "25",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Famalicão",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/a3f4er1563653256.png"
+      },
+      "data": "2024-01-28",
+      "horario": "2024-01-28T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "26",
+      "equipaCasa": {
+        "equipaNome": "Casa Pia",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/d8ugsc1678717133.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-02-04",
+      "horario": "2024-02-04T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "27",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Arouca",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/vgbzjq1628853833.png"
+      },
+      "data": "2024-02-11",
+      "horario": "2024-02-11T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "28",
+      "equipaCasa": {
+        "equipaNome": "Moreirense",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/yrquxu1471878153.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-02-18",
+      "horario": "2024-02-18T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "29",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Rio Ave",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ngbklq1628851239.png"
+      },
+      "data": "2024-02-25",
+      "horario": "2024-02-25T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "30",
+      "equipaCasa": {
+        "equipaNome": "Nacional",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/vgbzjq1628853833.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-03-03",
+      "horario": "2024-03-03T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "31",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Gil Vicente",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/88bsg41626201503.png"
+      },
+      "data": "2024-03-10",
+      "horario": "2024-03-10T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "32",
+      "equipaCasa": {
+        "equipaNome": "Estrela Amadora",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/2tx5621626095555.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-03-17",
+      "horario": "2024-03-17T20:30:00",
+      "local": "Fora"
+    },
+    {
+      "id": "33",
+      "equipaCasa": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Farense",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/0a09qc1690493592.png"
+      },
+      "data": "2024-03-24",
+      "horario": "2024-03-24T20:30:00",
+      "local": "Estádio José Alvalade"
+    },
+    {
+      "id": "34",
+      "equipaCasa": {
+        "equipaNome": "AVS SAD",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/xp8oqb1688676544.png"
+      },
+      "equipaFora": {
+        "equipaNome": "Sporting CP",
+        "equipaImagem": "https://r2.thesportsdb.com/images/media/team/badge/ohj6ih1628855978.png"
+      },
+      "data": "2024-03-31",
+      "horario": "2024-03-31T20:30:00",
+      "local": "Fora"
+    }
+  ]
 }

@@ -21,5 +21,8 @@
   "homepage": "https://github.com/Telmo1337/projetoSportingCP#readme",
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5"
   }
 }
