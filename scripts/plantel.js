@@ -11,7 +11,10 @@ function mostrarJogadores() {
 
       const jogadoresContainer = document.getElementById("jogadoresContainer");
 
-      data.forEach((jogador) => {
+      data.forEach((jogador, index) => {
+
+        console.log(index, jogador.nome);
+        
         const col = document.createElement('div');
         col.className = 'col-md-6 col-lg-3';
 
@@ -24,7 +27,6 @@ function mostrarJogadores() {
                 <span class="badge bg-dark-subtle text-dark fw-semibold border border-2 border-white rounded-circle p-2 fs-6 d-flex align-items-center justify-content-center" 
                       style="width: 42px; height: 42px;">${jogador.numero}</span>
               </div>
-              
             </div>
             <div class="card-body px-3 pb-3 pt-2">
               <h5 class="card-title fw-semibold text-dark mb-1 text-center">${jogador.nome}</h5>
@@ -77,9 +79,11 @@ function mostrarEquipaTecnica() {
 
   apiURL = 'http://localhost:3000/equipa-tecnica'; 
 
+
   fetch(apiURL)
     .then((res) => res.json())
     .then((data) => {
+
       const equipaTecnicaContainer = document.getElementById("equipaTecnicaContainer");
 
       data.forEach((tecnico) => {

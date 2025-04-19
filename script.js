@@ -79,6 +79,7 @@ function fetchJogadores() {
     .then((data) => {
 
       console.log('teste: ', data);
+      
       const jogadoresContainer = document.getElementById("jogadoresContainer");
 
 
