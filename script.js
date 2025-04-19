@@ -37,10 +37,11 @@ fetch(noticiasApiURL)
   .then((res) => res.json())
   .then((data) => {
 
-    console.log('test: ', data);
+    console.log('teste: ', data);
 
     const noticiasContainer = document.getElementById("noticiasContainer");
 
+    //slice 0,3 para apenas apresentar as 3 primeiras noticias que estao na api
     data.slice(0, 3).forEach((n) => {
       const col = document.createElement('div');
       col.className = 'col-md-6 col-lg-4';
@@ -67,4 +68,43 @@ fetch(noticiasApiURL)
     })
   })
 }
-document.addEventListener('DOMContentLoaded', fetchNoticias);
+
+
+//function => fetch jogadores
+function fetchJogadores() {
+  apiURL = 'http://localhost:3000/jogadores'; 
+
+  fetch(apiURL)
+    .then((res) => res.json())
+    .then((data) => {
+
+      console.log('teste: ', data);
+      const jogadoresContainer = document.getElementById("jogadoresContainer");
+
+      
+      //random para apenas apresentar os 6 jogadores
+      const jogadoresAleatorios = data.sort(() => 0.5 - Math.random()).slice(0, 6);
+
+      data.slice(0,6).forEach((j) => {
+        
+        const col = document.createElement('div');
+
+        col.className = "col-6 col-sm-4 col-md-3 col-lg-2 text-center";
+        
+        col.innerHTML = `
+        <img src="${j.imagem}"  class="player-img mb-2">
+        <h5 class="mb-0">${j.nome}</h5>
+        <p class="small text-muted">${j.posição}</p>
+      `;
+
+      jogadoresContainer.appendChild(col);
+      })
+
+      
+  })
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  fetchNoticias();
+  fetchJogadores();
+});
