@@ -31,8 +31,8 @@ function mostrarNoticias() {
             </div>
           `;
           noticiasContainer.appendChild(col);
-        })
-        
+        });
       })
+      .catch(err => console.error( err));
     }
 document.addEventListener('DOMContentLoaded', mostrarNoticias);

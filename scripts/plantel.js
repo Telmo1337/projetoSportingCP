@@ -61,15 +61,10 @@ function mostrarJogadores() {
         `;
 
         jogadoresContainer.appendChild(col);
-      })
-        //evento erro
-        .catch((err) => {
-          
-          console.error(err);
-          
-        })
-        
+      });
     })
+
+    .catch(err => console.error( err));
     
 }
 

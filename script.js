@@ -1,29 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  // Tooltips Bootstrap
+  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
   });
-});
 
-
-document.addEventListener("DOMContentLoaded", () => {
+  // Transição de links com fade-out
   const links = document.querySelectorAll(".transition-link");
-
   links.forEach(link => {
     link.addEventListener("click", function (e) {
-      e.preventDefault(); // prevent immediate navigation
-
+      e.preventDefault();
       const target = this.href;
-
       document.body.classList.add("fade-out");
-
       setTimeout(() => {
         window.location.href = target;
-      }, 500); // matches the transition time in CSS
+      }, 500);
     });
   });
-});
 
+  // Fetch APIs
+  fetchNoticias();
+  fetchJogadores();
+  fetchTrofeus();
+});
 
 
 
@@ -61,12 +60,10 @@ function fetchNoticias() {
         </div>
       `;
         noticiasContainer.appendChild(col);
-      })
-        //evento erro
-        .catch((err) => {
-          console.error(err);
-        })
+      });
     })
+
+    .catch(err => console.error( err));
 }
 
 
@@ -104,10 +101,9 @@ function fetchJogadores() {
 
 
         jogadoresContainer.appendChild(col);
-      })
-
-
+      });
     })
+    .catch(err => console.error( err));
 }
 
 
@@ -144,20 +140,10 @@ function fetchTrofeus() {
         
             trofeusContainer.appendChild(col);
         
-          })
-          //evento erro
-          .catch((err) => {
-              console.error(err);
-          })
+          });
       })
+      .catch(err => console.error( err));
 
 }
 
 
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  fetchNoticias();
-  fetchJogadores();
-  fetchTrofeus();
-});
