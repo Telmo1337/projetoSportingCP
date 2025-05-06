@@ -248,13 +248,4 @@ body.fade-in {
 }
 
 
-/* equipa futebol 11 hover para as cards de cada jogador */
-.card-jogo-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-jogo-hover:hover {
-  transform: scale(1.03);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-}
 

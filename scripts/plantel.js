@@ -19,7 +19,7 @@ function mostrarJogadores() {
         col.className = 'col-md-6 col-lg-3';
 
         col.innerHTML = `
-          <div class="card h-100 card-jogo-hover border-0 shadow-sm rounded-4 overflow-hidden">
+          <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
             <div class="position-relative">
             <img src="${jogador.imagem}" class="card-img-top img-fluid mx-auto d-block" 
                   style=" object-fit: cover; width: 50%;">

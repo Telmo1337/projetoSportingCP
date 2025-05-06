@@ -11,10 +11,11 @@ function mostrarNoticias() {
     
         const noticiasContainer = document.getElementById("noticiasContainer");
     
+
         data.forEach((n) => {
           const col = document.createElement('div');
           col.className = 'col-md-6 col-lg-4';
-        
+          
           col.innerHTML = `
             <div class="card h-100">
               <img src="${n.imgURL}" class="card-img-top" alt="${n.titulo}" style="height: 240px; object-fit: cover;">
@@ -33,7 +34,7 @@ function mostrarNoticias() {
         })
           //evento erro
         .catch((err) => {
-          console.error(err);
+          console.log(err);
         })
       })
     }

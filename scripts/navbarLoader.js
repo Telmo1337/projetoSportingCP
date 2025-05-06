@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(data => {
         document.getElementById("navbar-placeholder").innerHTML = data;
   
-        // Marcar o link atual com aria-current
+        // marcar o link atual com aria-current
         const path = window.location.pathname;
         const links = document.querySelectorAll(".nav-link");
   

@@ -86,7 +86,7 @@ function fetchJogadores() {
       //random para apenas apresentar os 6 jogadores
       const jogadoresAleatorios = data.sort(() => 0.5 - Math.random()).slice(0, 6);
 
-      data.slice(0, 6).forEach((j) => {
+      jogadoresAleatorios.slice(0, 6).forEach((j) => {
 
         const col = document.createElement('div');
 

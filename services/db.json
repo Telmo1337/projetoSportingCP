@@ -532,316 +532,34 @@
 
   "trofeus": [
     {
-      "id": "1",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1941,
-      "descrição": "Campeão nacional da época 1940/41"
+      "nomeLiga": "Campeonato Nacional",
+      "imgTrofeu" : "https://scpconteudos.pt/sites/default/files/trofeus/201507/futebol-campeonato-nacional2x.png",
+      "anos": [1923, 1934, 1936, 1938, 1941, 1944, 1947, 1948, 1949, 1951, 1952, 1953, 1954, 1958, 1962, 1966, 1970, 1974, 1980, 1982, 2000, 2002, 2021, 2024]
     },
     {
-      "id": "2",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1944,
-      "descrição": "Campeão nacional da época 1943/44"
+      "nomeLiga": "Taça dos Vencedores das Taças",
+      "imgTrofeu" : "https://scpconteudos.pt/sites/default/files/trofeus/201507/futebol-tacas2x.png",
+      "anos": [1964]
     },
     {
-      "id": "3",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1947,
-      "descrição": "Campeão nacional da época 1946/47"
-    },
-    {
-      "id": "4",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1948,
-      "descrição": "Campeão nacional da época 1947/48"
-    },
-    {
-      "id": "5",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1949,
-      "descrição": "Campeão nacional da época 1948/49"
-    },
-    {
-      "id": "6",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1951,
-      "descrição": "Campeão nacional da época 1950/51"
-    },
-    {
-      "id": "7",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1952,
-      "descrição": "Campeão nacional da época 1951/52"
-    },
-    {
-      "id": "8",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1953,
-      "descrição": "Campeão nacional da época 1952/53"
-    },
-    {
-      "id": "9",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1954,
-      "descrição": "Campeão nacional da época 1953/54"
-    },
-    {
-      "id": "10",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1958,
-      "descrição": "Campeão nacional da época 1957/58"
-    },
-    {
-      "id": "11",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1962,
-      "descrição": "Campeão nacional da época 1961/62"
-    },
-    {
-      "id": "12",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1966,
-      "descrição": "Campeão nacional da época 1965/66"
-    },
-    {
-      "id": "13",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1970,
-      "descrição": "Campeão nacional da época 1969/70"
-    },
-    {
-      "id": "14",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1974,
-      "descrição": "Campeão nacional da época 1973/74"
-    },
-    {
-      "id": "15",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1980,
-      "descrição": "Campeão nacional da época 1979/80"
-    },
-    {
-      "id": "16",
-      "nomeLiga": "Primeira Liga",
-      "ano": 1982,
-      "descrição": "Campeão nacional da época 1981/82"
-    },
-    {
-      "id": "17",
-      "nomeLiga": "Primeira Liga",
-      "ano": 2000,
-      "descrição": "Campeão nacional da época 1999/00"
-    },
-    {
-      "id": "18",
-      "nomeLiga": "Primeira Liga",
-      "ano": 2002,
-      "descrição": "Campeão nacional da época 2001/02"
-    },
-    {
-      "id": "19",
-      "nomeLiga": "Primeira Liga",
-      "ano": 2021,
-      "descrição": "Campeão nacional da época 2020/21"
-    },
-    {
-      "id": "20",
-      "nomeLiga": "Primeira Liga",
-      "ano": 2024,
-      "descrição": "Campeão nacional da época 2023/24"
-    },
-    {
-      "id": "21",
       "nomeLiga": "Taça de Portugal",
-      "ano": 1941,
-      "descrição": "Vencedor da Taça de Portugal"
+      "imgTrofeu": "https://scpconteudos.pt/sites/default/files/trofeus/201507/futebol-taca-portugal2x.png",
+      "anos": [1941, 1945, 1946, 1948, 1954, 1963, 1971, 1973, 1974, 1978, 1982, 1995, 2002, 2007, 2008, 2015, 2019]
     },
     {
-      "id": "22",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1945,
-      "descrição": "Vencedor da Taça de Portugal"
+      "nomeLiga": "Supertaça 'Cândido de Oliveira'",
+      "imgTrofeu": "https://scpconteudos.pt/sites/default/files/trofeus/201507/futebol-supertaca2x.png",
+      "anos": [1982, 1987, 1995, 2000, 2002, 2007, 2008, 2016, 2021]
     },
     {
-      "id": "23",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1946,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "24",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1948,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "25",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1954,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "26",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1963,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "27",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1971,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "28",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1973,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "29",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1974,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "30",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1978,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "31",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1982,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "32",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 1995,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "33",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 2002,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "34",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 2007,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "35",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 2008,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "36",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 2015,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "37",
-      "nomeLiga": "Taça de Portugal",
-      "ano": 2019,
-      "descrição": "Vencedor da Taça de Portugal"
-    },
-    {
-      "id": "38",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 1982,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "39",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 1987,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "40",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 1995,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "41",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2000,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "42",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2002,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "43",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2007,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "44",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2008,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "45",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2016,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "46",
-      "nomeLiga": "Supertaça Cândido de Oliveira",
-      "ano": 2021,
-      "descrição": "Vencedor da Supertaça"
-    },
-    {
-      "id": "47",
       "nomeLiga": "Taça da Liga",
-      "ano": 2018,
-      "descrição": "Vencedor da Taça da Liga"
+      "imgTrofeu": "https://scpconteudos.pt/sites/default/files/trofeus/201902/taca_da_liga.png",
+      "anos": [2018, 2019, 2021, 2022]
     },
     {
-      "id": "48",
-      "nomeLiga": "Taça da Liga",
-      "ano": 2019,
-      "descrição": "Vencedor da Taça da Liga"
-    },
-    {
-      "id": "49",
-      "nomeLiga": "Taça da Liga",
-      "ano": 2021,
-      "descrição": "Vencedor da Taça da Liga"
-    },
-    {
-      "id": "50",
-      "nomeLiga": "Taça da Liga",
-      "ano": 2022,
-      "descrição": "Vencedor da Taça da Liga"
-    },
-    {
-      "id": "51",
       "nomeLiga": "Taça Império",
-      "ano": 1944,
-      "descrição": "Vencedor da Taça Império, competição única da época"
-    },
-    {
-      "id": "52",
-      "nomeLiga": "Taça das Taças",
-      "ano": 1964,
-      "descrição": "Vencedor da Taça dos Vencedores das Taças da UEFA"
+      "imgTrofeu": "https://scpconteudos.pt/sites/default/files/trofeus/201801/taca_imperio_recortada.png",
+      "anos": [1944]
     }
   ],
   "jogos": [
