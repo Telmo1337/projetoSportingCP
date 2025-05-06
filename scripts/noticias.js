@@ -32,10 +32,7 @@ function mostrarNoticias() {
           `;
           noticiasContainer.appendChild(col);
         })
-          //evento erro
-        .catch((err) => {
-          console.log(err);
-        })
+        
       })
     }
 document.addEventListener('DOMContentLoaded', mostrarNoticias);

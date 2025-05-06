@@ -110,7 +110,54 @@ function fetchJogadores() {
     })
 }
 
+
+//fetch trofeus
+//fetch trofeus da api
+
+function fetchTrofeus() {
+
+  trofeusApiURL = 'http://localhost:3000/trofeus';
+
+  fetch(trofeusApiURL)
+      .then((res) => res.json())
+      .then((data) => {
+          console.log('teste: ', data);
+
+          const trofeusContainer = document.getElementById("trofeusContainer");
+          
+          data.forEach((t) => {
+
+            const col = document.createElement('div');
+            col.className = 'col-6 col-md-4 col-lg-4 text-center mb-4';
+        
+            col.innerHTML = `
+                <div class="trofeu-img-container mx-auto mb-2">
+                    <img src="${t.imgTrofeu}" 
+                         class="img-fluid img-cinza" 
+                         alt="${t.nomeLiga}"
+                          
+                         >
+                </div>
+                <h5 class="mb-1">${t.nomeLiga}</h5>
+                <p class="small mb-0" style="color:rgb(74, 152, 107);">${t.anos.join(', ')}</p>
+            `;
+        
+            trofeusContainer.appendChild(col);
+        
+          })
+          //evento erro
+          .catch((err) => {
+              console.error(err);
+          })
+      })
+
+}
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
   fetchNoticias();
   fetchJogadores();
+  fetchTrofeus();
 });
