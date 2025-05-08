@@ -35,4 +35,6 @@ function mostrarNoticias() {
       })
       .catch(err => console.error( err));
     }
-document.addEventListener('DOMContentLoaded', mostrarNoticias);
+document.addEventListener('DOMContentLoaded', 
+  mostrarNoticias()
+);

@@ -125,6 +125,7 @@
     {
       "id": "1",
       "nome": "Franco Israel",
+      "nomeAbreviado": "F. Israel",
       "posição": "Guarda-Redes",
       "numero": 1,
       "nacionalidade": "Uruguai",
@@ -137,6 +138,7 @@
     {
       "id": "2",
       "nome": "Rui Silva",
+      "nomeAbreviado": "R. Silva",
       "posição": "Guarda-Redes",
       "numero": 24,
       "nacionalidade": "Portugal",
@@ -149,6 +151,7 @@
     {
       "id": "3",
       "nome": "Diego Calai",
+      "nomeAbreviado": "D. Calai",
       "posição": "Guarda-Redes",
       "numero": 41,
       "nacionalidade": "Brasil",
@@ -161,6 +164,7 @@
     {
       "id": "4",
       "nome": "Diego Pinto",
+      "nomeAbreviado": "D. Pinto",
       "posição": "Guarda-Redes",
       "numero": 51,
       "nacionalidade": "Portugal",
@@ -172,7 +176,8 @@
     },
     {
       "id": "5",
-      "nome": "Matheus Reis ",
+      "nome": "Matheus Reis",
+      "nomeAbreviado": "M. Reis",
       "posição": "Defesa",
       "numero": 2,
       "nacionalidade": "Brasil",
@@ -185,6 +190,7 @@
     {
       "id": "6",
       "nome": "St. Juste",
+      "nomeAbreviado": "St. Juste",
       "posição": "Defesa",
       "numero": 3,
       "nacionalidade": "Holanda",
@@ -197,6 +203,7 @@
     {
       "id": "7",
       "nome": "Zeno Debast",
+      "nomeAbreviado": "Z. Debast",
       "posição": "Defesa",
       "numero": 6,
       "nacionalidade": "Bélgica",
@@ -209,6 +216,7 @@
     {
       "id": "8",
       "nome": "Iván Fresneda",
+      "nomeAbreviado": "I. Fresneda",
       "posição": "Defesa",
       "numero": 22,
       "nacionalidade": "Espanha",
@@ -221,6 +229,7 @@
     {
       "id": "9",
       "nome": "Gonçalo Inácio",
+      "nomeAbreviado": "G. Inácio",
       "posição": "Defesa",
       "numero": 25,
       "nacionalidade": "Portugal",
@@ -233,6 +242,7 @@
     {
       "id": "10",
       "nome": "Ousmane Diomande",
+      "nomeAbreviado": "O. Diomande",
       "posição": "Defesa",
       "numero": 26,
       "nacionalidade": "C. do Marfim",
@@ -245,6 +255,7 @@
     {
       "id": "11",
       "nome": "Ricardo Esgaio",
+      "nomeAbreviado": "R. Esgaio",
       "posição": "Defesa",
       "numero": 47,
       "nacionalidade": "Portugal",
@@ -257,6 +268,7 @@
     {
       "id": "12",
       "nome": "Eduardo Quaresma",
+      "nomeAbreviado": "E. Quaresma",
       "posição": "Defesa",
       "numero": 72,
       "nacionalidade": "Portugal",
@@ -269,6 +281,7 @@
     {
       "id": "13",
       "nome": "Hidemasa Morita",
+      "nomeAbreviado":  "H. Morita",
       "posição": "Médio",
       "numero": 5,
       "nacionalidade": "Japão",
@@ -281,6 +294,7 @@
     {
       "id": "14",
       "nome": "Pedro Gonçalves",
+      "nomeAbreviado": "P. Gonçalves",
       "posição": "Médio",
       "numero": 8,
       "nacionalidade": "Portugal",
@@ -293,6 +307,7 @@
     {
       "id": "15",
       "nome": "Daniel Bragança",
+      "nomeAbreviado": "D. Bragança",
       "posição": "Médio",
       "numero": 23,
       "nacionalidade": "Portugal",
@@ -305,6 +320,7 @@
     {
       "id": "16",
       "nome": "Morten Hjulmand",
+      "nomeAbreviado": "M. Hjulmand",
       "posição": "Médio",
       "numero": 42,
       "nacionalidade": "Dinamarca",
@@ -317,6 +333,7 @@
     {
       "id": "17",
       "nome": "João Simões",
+      "nomeAbreviado": "J. Simões",
       "posição": "Médio",
       "numero": 52,
       "nacionalidade": "Portugal",
@@ -329,6 +346,7 @@
     {
       "id": "18",
       "nome": "Viktor Gyökeres",
+      "nomeAbreviado": "V. Gyökeres",
       "posição": "Avançado",
       "numero": 9,
       "nacionalidade": "Suécia",
@@ -341,6 +359,7 @@
     {
       "id": "19",
       "nome": "Nuno Santos",
+      "nomeAbreviado": "N. Santos",
       "posição": "Avançado",
       "numero": 11,
       "nacionalidade": "Portugal",
@@ -353,6 +372,7 @@
     {
       "id": "20",
       "nome": "Francisco Trincão",
+      "nomeAbreviado": "F. Trincão",
       "posição": "Avançado",
       "numero": 17,
       "nacionalidade": "Portugal",
@@ -365,6 +385,7 @@
     {
       "id": "21",
       "nome": "Conrad Harder",
+      "nomeAbreviado": "C. Harder",
       "posição": "Avançado",
       "numero": 19,
       "nacionalidade": "Dinamarca",
@@ -377,6 +398,7 @@
     {
       "id": "22",
       "nome": "Maxi Araújo",
+      "nomeAbreviado": "M. Araújo",
       "posição": "Avançado",
       "numero": 20,
       "nacionalidade": "Uruguai",
@@ -389,6 +411,7 @@
     {
       "id": "23",
       "nome": "Geny Catamo",
+      "nomeAbreviado": "G. Catamo",
       "posição": "Avançado",
       "numero": 21,
       "nacionalidade": "Moçambique",
@@ -401,6 +424,7 @@
     {
       "id": "24",
       "nome": "Biel",
+      "nomeAbreviado": "Biel",
       "posição": "Avançado",
       "numero": 30,
       "nacionalidade": "Brasil",
@@ -413,6 +437,7 @@
     {
       "id": "25",
       "nome": "Geovany Quenda",
+      "nomeAbreviado": "G. Quenda",
       "posição": "Avançado",
       "numero": 57,
       "nacionalidade": "Portugal",
@@ -425,6 +450,7 @@
     {
       "id": "26",
       "nome": "Afonso Moreira",
+      "nomeAbreviado": "A. Moreira",
       "posição": "Avançado",
       "numero": 90,
       "nacionalidade": "Portugal",
