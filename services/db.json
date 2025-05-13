@@ -133,7 +133,43 @@
       "altura": "1,90 m",
       "peso": "81 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/israel.jpg",
-      "codigo": "uy"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202407/1_israel.jpg?itok=X_BFPSh-",
+      "codigo": "uy",
+      "conquistas": [
+        {
+          "ano": ["2018"],
+          "titulo": "Copa Libertadores de Sub-20",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+       "clubesAnteriores" : [
+        {
+          "nome": "Club Lucerna",
+          "ano": "2009-2010"
+        },
+        {
+          "nome": "Club Artesano",
+          "ano": "2010-2016"
+        },
+        {
+          "nome": "Club Nacional de Football",
+          "ano": "2016-2018"
+        },
+        {
+          "nome": "Juventus FC",
+          "ano": "2018-2022"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2022"
+        }
+      ],
+      "biografia": "Nascido em Nueva Helvecia, no sul do Uruguai, Franco Israel deu os primeiros passos no Club Lucerna, onde entrou aos nove anos. Nesta fase ainda vivia a paixão pelo futebol e simultâneo com alguma aptidão para o basquetebol, mas acabou por se ganhar um guarda-redes. Seguiu o seu percurso futebolístico no Club Artesano, até que em 2016 o Nacional o contratou, culminando essa passagem com a conquista da Libertadores de sub-20. Esse sucesso levou a que a Juventus o contratasse, tendo actuado nas últimas temporadas na equipa B dos bianconeri, embora com visitas regulares ao plantel principal. Contratado pelo Sporting CP em 2022, num contrato que se estende até 2027, Franco Israel é já internacional uruguaio. Após duas temporadas de Leão ao peito já teve a felicidade de festejar um título de campeão nacional."
     },
     {
       "id": "2",
@@ -146,7 +182,52 @@
       "altura": "1,91 m",
       "peso": "91 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/rui_silva.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://livesport-ott-images.ssl.cdn.cra.cz/r900xfq60/a89ba228-68a9-4e60-917c-997ebca3adb0.jpeg",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2021/22"],
+          "titulo": "Taça do Rei de Espanha",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      
+      "clubesAnteriores" : [
+        {
+          "nome": "AR 'Os Restauradores Brás-Oleiro' (futsal)",
+          "ano": "2003-2006"
+        },
+        {
+          "nome": "FC Maia",
+          "ano": "2006-2009"
+        },
+        {
+          "nome": "FC Maia Lidador",
+          "ano": "2009-2012"
+        },
+        {
+          "nome": "CD Nacional",
+          "ano": "2012-2017"
+        },
+        {
+          "nome": "Granada CF",
+          "ano": "2017-2021"
+        },
+        {
+          "nome": "Real Betis Balompié",
+          "ano": "2021-2025"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2025"
+        }
+      ],
+      "biografia": "Natural da Maia, foi no distrito do Porto que Rui Silva começou por jogar... futsal. Três temporadas depois o futebol chamou por ele e foi no FC Maia e no FC Maia Lidador que fez a formação, chegando ao CD Nacional em 2012. Internacional por Portugal nas selecções jovens desde 2013, tem um jogo pela principal equipa das quinas, jogado precisamente em pleno Estádio José Alvalade, em 2021. Chegou ao Sporting CP em janeiro de 2025, após 8 temporadas no futebol espanhol, ao serviço de Granada CF e Real Bétis, clube onde venceu uma Taça do Rei, em 2022. Já de Leão ao peito disse que regressar a Portugal pela porta grande era um objectivo e que o Sporting era um projecto irrecusável que lhe permitirá lutar por títulos."
     },
     {
       "id": "3",
@@ -159,11 +240,48 @@
       "altura": "1,90 m",
       "peso": "90 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/calai.jpg",
-      "codigo": "br"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202407/calai.jpg?itok=a_gX9oH3",
+      "codigo": "br",
+      "conquistas": [
+        {
+          "ano": ["2017/18", "2018/19"],
+          "titulo": "Campeonato Nacional Sub-15",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2017/18"],
+          "titulo": "Campeonato Distrital Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores" : [
+        {
+          "nome": "EC Juventude",
+          "ano": "2013-2015"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2015-2024"
+        },
+        {
+          "nome": "CD Feirense (emprestado)",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia":"Natural de Caxias do Sul, no Brasil, Diego Calai tem no sangue a apetência para actuar como guarda-redes (o pai também o foi e é hoje treinador de guarda-redes). Ingressou no Esporte Clube Juventude em 2013 e desde cedo o Sporting CP o referenciou. Com nove anos e ainda enquanto jogador do Juventude, participou num torneio em Portugal com o Sporting. Convenceu e dois anos depois viajou com a família para Lisboa para assinar pelo Clube. Bicampeão nacional de iniciados de Leão ao peito, estreou-se nos sub-23 com apenas dezasseis anos, em 2021 integrou a equipa B e foi integrado na equipa principal na temporada seguinte. Com meia temporada em Alvalade e a segunda metade em Santa Maria da Feira, ao serviço do Feirense, Calai é campeão nacional em 2023/24."
     },
     {
       "id": "4",
-      "nome": "Diego Pinto",
+      "nome": "Diogo Pinto",
       "nomeAbreviado": "D. Pinto",
       "posição": "Guarda-Redes",
       "numero": 51,
@@ -172,7 +290,45 @@
       "altura": "1,94 m",
       "peso": "89 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/diogo_pinto.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202310/imgonline-com-ua-compresstosize-iosm6mrlcjzoi.jpg?itok=NIBKRats",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2017/18"],
+          "titulo": "Campeonato Distrital Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2018/19"],
+          "titulo": "Campeonato Nacional Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2019"],
+          "titulo": "Torneio CONCACAF Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores" : [
+        {
+          "nome": "FC Felgueiras 1932",
+          "ano": "2012-2016"
+        },
+        {
+          "nome": "FC Paços de Ferreira",
+          "ano": "2016-2017"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2017"
+        }
+      ],
+      "biografia": "Diogo Pinto nasceu em Felgueiras, em 2004 e começou a jogar futebol aos oito anos, no FC Felgueiras 1932. Chegou ao Sporting CP em 2017, para a equipa de sub-14 e na época seguinte foi campeão nacional pelos sub-15. Internacional português desde 2019, já actuou por Portugal nos escalões sub-15, sub-16 e Sub-18. Evoluiu entre os sub-17 e sub-23 Leoninos, estreando-se em novembro de 2021 na Liga Revelação. Com contrato profissional desde outubro de 2020, acabou por trabalhar durante toda a temporada passada com a equipa principal dos Leões, sagrando-se campeão nacional em 2023/24. A nova temporada arranca com a natural integração em definitivo no plantel principal."
     },
     {
       "id": "5",
@@ -185,6 +341,7 @@
       "altura": "1,84 m",
       "peso": "80 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/matheus_reis.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-gem4dchpdz9jouz.jpg?itok=Pz4_SFxy",
       "codigo": "br"
     },
     {
