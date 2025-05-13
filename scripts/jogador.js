@@ -4,7 +4,13 @@ function getJogadorIdFromURL() {
 }
 
 function fetchJogadorDetalhes() {
+
     const jogadorId = getJogadorIdFromURL();
+
+
+    // vai buscar a propriedade id do jogador no endpoint jogadores neste caso localhost:3000/jogadores, 
+    // e depois vai buscar o id do jogador que está na url
+    // Exemplo: http://localhost:3000/jogadores/1
     const apiUrl = `http://localhost:3000/jogadores/${jogadorId}`;
 
     fetch(apiUrl)
@@ -47,7 +53,7 @@ function fetchJogadorDetalhes() {
                 </div>
             </div>
 
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-6">
                 <div class="card mb-4">
                     <div class="card-header">
                         <h5 class="card-title mb-0">Estatísticas de Carreira</h5>

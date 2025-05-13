@@ -123,7 +123,7 @@
   ],
   "jogadores": [
     {
-      "id": "1",
+      "id": "franco-israel",
       "nome": "Franco Israel",
       "nomeAbreviado": "F. Israel",
       "posição": "Guarda-Redes",
@@ -172,7 +172,7 @@
       "biografia": "Nascido em Nueva Helvecia, no sul do Uruguai, Franco Israel deu os primeiros passos no Club Lucerna, onde entrou aos nove anos. Nesta fase ainda vivia a paixão pelo futebol e simultâneo com alguma aptidão para o basquetebol, mas acabou por se ganhar um guarda-redes. Seguiu o seu percurso futebolístico no Club Artesano, até que em 2016 o Nacional o contratou, culminando essa passagem com a conquista da Libertadores de sub-20. Esse sucesso levou a que a Juventus o contratasse, tendo actuado nas últimas temporadas na equipa B dos bianconeri, embora com visitas regulares ao plantel principal. Contratado pelo Sporting CP em 2022, num contrato que se estende até 2027, Franco Israel é já internacional uruguaio. Após duas temporadas de Leão ao peito já teve a felicidade de festejar um título de campeão nacional."
     },
     {
-      "id": "2",
+      "id": "rui-silva",
       "nome": "Rui Silva",
       "nomeAbreviado": "R. Silva",
       "posição": "Guarda-Redes",
@@ -230,7 +230,7 @@
       "biografia": "Natural da Maia, foi no distrito do Porto que Rui Silva começou por jogar... futsal. Três temporadas depois o futebol chamou por ele e foi no FC Maia e no FC Maia Lidador que fez a formação, chegando ao CD Nacional em 2012. Internacional por Portugal nas selecções jovens desde 2013, tem um jogo pela principal equipa das quinas, jogado precisamente em pleno Estádio José Alvalade, em 2021. Chegou ao Sporting CP em janeiro de 2025, após 8 temporadas no futebol espanhol, ao serviço de Granada CF e Real Bétis, clube onde venceu uma Taça do Rei, em 2022. Já de Leão ao peito disse que regressar a Portugal pela porta grande era um objectivo e que o Sporting era um projecto irrecusável que lhe permitirá lutar por títulos."
     },
     {
-      "id": "3",
+      "id": "diego-calai",
       "nome": "Diego Calai",
       "nomeAbreviado": "D. Calai",
       "posição": "Guarda-Redes",
@@ -280,7 +280,7 @@
       "biografia":"Natural de Caxias do Sul, no Brasil, Diego Calai tem no sangue a apetência para actuar como guarda-redes (o pai também o foi e é hoje treinador de guarda-redes). Ingressou no Esporte Clube Juventude em 2013 e desde cedo o Sporting CP o referenciou. Com nove anos e ainda enquanto jogador do Juventude, participou num torneio em Portugal com o Sporting. Convenceu e dois anos depois viajou com a família para Lisboa para assinar pelo Clube. Bicampeão nacional de iniciados de Leão ao peito, estreou-se nos sub-23 com apenas dezasseis anos, em 2021 integrou a equipa B e foi integrado na equipa principal na temporada seguinte. Com meia temporada em Alvalade e a segunda metade em Santa Maria da Feira, ao serviço do Feirense, Calai é campeão nacional em 2023/24."
     },
     {
-      "id": "4",
+      "id": "diogo-pinto",
       "nome": "Diogo Pinto",
       "nomeAbreviado": "D. Pinto",
       "posição": "Guarda-Redes",
@@ -331,7 +331,7 @@
       "biografia": "Diogo Pinto nasceu em Felgueiras, em 2004 e começou a jogar futebol aos oito anos, no FC Felgueiras 1932. Chegou ao Sporting CP em 2017, para a equipa de sub-14 e na época seguinte foi campeão nacional pelos sub-15. Internacional português desde 2019, já actuou por Portugal nos escalões sub-15, sub-16 e Sub-18. Evoluiu entre os sub-17 e sub-23 Leoninos, estreando-se em novembro de 2021 na Liga Revelação. Com contrato profissional desde outubro de 2020, acabou por trabalhar durante toda a temporada passada com a equipa principal dos Leões, sagrando-se campeão nacional em 2023/24. A nova temporada arranca com a natural integração em definitivo no plantel principal."
     },
     {
-      "id": "5",
+      "id": "matheus-reis",
       "nome": "Matheus Reis",
       "nomeAbreviado": "M. Reis",
       "posição": "Defesa",
@@ -345,7 +345,7 @@
       "codigo": "br"
     },
     {
-      "id": "6",
+      "id": "jeremy-st-juste",
       "nome": "St. Juste",
       "nomeAbreviado": "St. Juste",
       "posição": "Defesa",
@@ -358,7 +358,7 @@
       "codigo": "nl"
     },
     {
-      "id": "7",
+      "id": "zeno-debast",
       "nome": "Zeno Debast",
       "nomeAbreviado": "Z. Debast",
       "posição": "Defesa",
@@ -371,7 +371,7 @@
       "codigo": "be"
     },
     {
-      "id": "8",
+      "id": "ivan-fresneda",
       "nome": "Iván Fresneda",
       "nomeAbreviado": "I. Fresneda",
       "posição": "Defesa",
@@ -384,7 +384,7 @@
       "codigo": "es"
     },
     {
-      "id": "9",
+      "id": "gonçalo-inacio",
       "nome": "Gonçalo Inácio",
       "nomeAbreviado": "G. Inácio",
       "posição": "Defesa",
@@ -397,7 +397,7 @@
       "codigo": "pt"
     },
     {
-      "id": "10",
+      "id": "ousmane-diomande",
       "nome": "Ousmane Diomande",
       "nomeAbreviado": "O. Diomande",
       "posição": "Defesa",
@@ -410,7 +410,7 @@
       "codigo": "ci"
     },
     {
-      "id": "11",
+      "id": "ricardo-esgaio",
       "nome": "Ricardo Esgaio",
       "nomeAbreviado": "R. Esgaio",
       "posição": "Defesa",
@@ -423,7 +423,7 @@
       "codigo": "pt"
     },
     {
-      "id": "12",
+      "id": "eduardo-quaresma",
       "nome": "Eduardo Quaresma",
       "nomeAbreviado": "E. Quaresma",
       "posição": "Defesa",
@@ -436,7 +436,7 @@
       "codigo": "pt"
     },
     {
-      "id": "13",
+      "id": "hidemasa-morita",
       "nome": "Hidemasa Morita",
       "nomeAbreviado":  "H. Morita",
       "posição": "Médio",
@@ -449,7 +449,7 @@
       "codigo": "jp"
     },
     {
-      "id": "14",
+      "id": "pedro-goncalves",
       "nome": "Pedro Gonçalves",
       "nomeAbreviado": "P. Gonçalves",
       "posição": "Médio",
@@ -462,7 +462,7 @@
       "codigo": "pt"
     },
     {
-      "id": "15",
+      "id": "daniel-braganca",
       "nome": "Daniel Bragança",
       "nomeAbreviado": "D. Bragança",
       "posição": "Médio",
@@ -475,7 +475,7 @@
       "codigo": "pt"
     },
     {
-      "id": "16",
+      "id": "morten-hjulmand",
       "nome": "Morten Hjulmand",
       "nomeAbreviado": "M. Hjulmand",
       "posição": "Médio",
@@ -488,7 +488,7 @@
       "codigo": "dk"
     },
     {
-      "id": "17",
+      "id": "joao-simoes",
       "nome": "João Simões",
       "nomeAbreviado": "J. Simões",
       "posição": "Médio",
@@ -501,7 +501,7 @@
       "codigo": "pt"
     },
     {
-      "id": "18",
+      "id": "viktor-gyokeres",
       "nome": "Viktor Gyökeres",
       "nomeAbreviado": "V. Gyökeres",
       "posição": "Avançado",
@@ -514,7 +514,7 @@
       "codigo": "se"
     },
     {
-      "id": "19",
+      "id": "nuno-santos",
       "nome": "Nuno Santos",
       "nomeAbreviado": "N. Santos",
       "posição": "Avançado",
@@ -527,7 +527,7 @@
       "codigo": "pt"
     },
     {
-      "id": "20",
+      "id": "francisco-trincao",
       "nome": "Francisco Trincão",
       "nomeAbreviado": "F. Trincão",
       "posição": "Avançado",
@@ -540,7 +540,7 @@
       "codigo": "pt"
     },
     {
-      "id": "21",
+      "id": "conrad-harder",
       "nome": "Conrad Harder",
       "nomeAbreviado": "C. Harder",
       "posição": "Avançado",
@@ -553,7 +553,7 @@
       "codigo": "dk"
     },
     {
-      "id": "22",
+      "id": "maxi-araujo",
       "nome": "Maxi Araújo",
       "nomeAbreviado": "M. Araújo",
       "posição": "Avançado",
@@ -566,7 +566,7 @@
       "codigo": "uy"
     },
     {
-      "id": "23",
+      "id": "geny-catamo",
       "nome": "Geny Catamo",
       "nomeAbreviado": "G. Catamo",
       "posição": "Avançado",
@@ -579,7 +579,7 @@
       "codigo": "mz"
     },
     {
-      "id": "24",
+      "id": "biel",
       "nome": "Biel",
       "nomeAbreviado": "Biel",
       "posição": "Avançado",
@@ -592,7 +592,7 @@
       "codigo": "br"
     },
     {
-      "id": "25",
+      "id": "geovany-quenda",
       "nome": "Geovany Quenda",
       "nomeAbreviado": "G. Quenda",
       "posição": "Avançado",
@@ -605,7 +605,7 @@
       "codigo": "pt"
     },
     {
-      "id": "26",
+      "id": "afonso-moreira",
       "nome": "Afonso Moreira",
       "nomeAbreviado": "A. Moreira",
       "posição": "Avançado",
@@ -622,7 +622,7 @@
 
   "equipa-tecnica": [
     {
-      "id": "1",
+      "id": "rui-borges",
       "nome": "Rui Borges",
       "cargo": "Treinador Principal",
       "nacionalidade": "Portugal",
@@ -631,7 +631,7 @@
       "codigo": "pt"
     },
     {
-      "id": "2",
+      "id": "tiago-aguiar",
       "nome": "Tiago Aguiar",
       "cargo": "Treinador Adjunto",
       "nacionalidade": "Portugal",
@@ -640,7 +640,7 @@
       "codigo": "pt"
     },
     {
-      "id": "3",
+      "id": "ricardo-chaves",
       "nome": "Ricardo Chaves",
       "cargo": "Treinador Adjunto",
       "nacionalidade": "Portugal",
@@ -649,7 +649,7 @@
       "codigo": "pt"
     },
     {
-      "id": "4",
+      "id": "luis-neto",
       "nome": "Luís Neto",
       "cargo": "Treinador Adjunto",
       "nacionalidade": "Portugal",
@@ -658,7 +658,7 @@
       "codigo": "pt"
     },
     {
-      "id": "5",
+      "id": "fernando-morato",
       "nome": "Fernando Morato",
       "cargo": "Preparador Físico",
       "nacionalidade": "Portugal",
@@ -667,7 +667,7 @@
       "codigo": "pt"
     },
     {
-      "id": "6",
+      "id": "gonçalo-alvaro",
       "nome": "Gonçalo Álvaro",
       "cargo": "Preparador Físico",
       "nacionalidade": "Portugal",
@@ -676,7 +676,7 @@
       "codigo": "pt"
     },
     {
-      "id": "7",
+      "id": "jose-meireles",
       "nome": "José Meireles",
       "cargo": "Analista de Desempenho",
       "nacionalidade": "Portugal",
@@ -685,7 +685,7 @@
       "codigo": "pt"
     },
     {
-      "id": "8",
+      "id": "pedro-cardoso",
       "nome": "Pedro Cardoso",
       "cargo": "Utilizador de Performance",
       "nacionalidade": "Portugal",
@@ -694,7 +694,7 @@
       "codigo": "pt"
     },
     {
-      "id": "9",
+      "id": "tiago-ferreira",
       "nome": "Tiago Ferreira",
       "cargo": "Treinador de Guarda-Redes",
       "nacionalidade": "Portugal",
@@ -703,7 +703,7 @@
       "codigo": "pt"
     },
     {
-      "id": "10",
+      "id": "hugo-tecelao",
       "nome": "Hugo Tecelão",
       "cargo": "Treinador de Guarda-Redes",
       "nacionalidade": "Portugal",

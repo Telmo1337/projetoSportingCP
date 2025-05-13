@@ -85,7 +85,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // finalizar a compra dos bilhetyes
   document.getElementById('finalizarCompra').addEventListener('click', function() {
-    alert('Compra realizada. Bilhetes serão enviados para o seu email.');
+      const toastEl = document.getElementById('compraToast');
+    const toast = new bootstrap.Toast(toastEl);
+    toast.show();
   
     // bootstrap modal para fechar o modal
     const modalElement = new bootstrap.Modal(document.getElementById('ticketModal'));

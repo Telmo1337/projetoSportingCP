@@ -1,94 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JOGOS | Sporting CP</title>
-    <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/giannis-zographos/portugese-football-club/32/Sporting-CP-Lisbon-icon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="https://icons.iconarchive.com/icons/giannis-zographos/portugese-football-club/32/Sporting-CP-Lisbon-icon.png"
+      type="image/x-icon"
+    />
 
     <!--Link bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
     <!--Link bootstrap icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
 
     <!--Link css sheet-->
     <link rel="stylesheet" href="/style.css" />
+  </head>
 
-</head>
-
-<body class="fade-in">
-   
+  <body class="fade-in">
     <!--Header-->
-    <div id="navbar-placeholder">
+    <div id="navbar-placeholder"></div>
 
-        
-    </div>
+    <!--jogos-->
+    <div class="container py-5">
+      <h1 class="text-center mb-5">Calendário de Jogos</h1>
 
+      <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id="jogosContainer">
+        <!-- jogos fetch -->
+      </div>
 
-        <!--jogos-->
-        <div class="container py-5">
-            <h1 class="text-center mb-5">Calendário de Jogos</h1>
-
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5" id="jogosContainer">
-                <!-- jogos fetch -->
+      <div
+        class="modal fade"
+        id="ticketModal"
+        tabindex="-1"
+        aria-labelledby="ticketModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+              <h5 class="modal-title" id="ticketModalLabel">
+                Comprar Bilhetes
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
             </div>
-
-           
-            
-            <div class="modal fade" id="ticketModal" tabindex="-1" aria-labelledby="ticketModalLabel" aria-hidden="true" >
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header bg-success text-white">
-                    <h5 class="modal-title" id="ticketModalLabel">Comprar Bilhetes</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <h4 id="jogoTitulo" class="text-center mb-3"></h4>
-                    <div class="mb-3">
-                      <p><strong>Data:</strong> <span id="jogoData"></span></p>
-                      <p><strong>Horário:</strong> <span id="jogoHorario"></span></p>
-                      <p><strong>Local:</strong> <span id="jogoLocal"></span></p>
-                    </div>
-                    <hr />
-                    <form>
-                      <div class="mb-3">
-                        <label for="ticketType" class="form-label">Tipo de Bilhete</label>
-                        <select class="form-select" id="ticketType">
-                          <option value="standard">Padrão - €25</option>
-                          <option value="premium">Premium - €50</option>
-                          <option value="vip">VIP - €100</option>
-                        </select>
-                      </div>
-                      <div class="mb-3">
-                        <label for="ticketQuantity" class="form-label">Quantidade</label>
-                        <input type="number" class="form-control" id="ticketQuantity" min="1" max="10" value="1">
-                      </div>
-                      <div class="mb-3">
-                        <label for="customerName" class="form-label">Nome Completo</label>
-                        <input type="text" class="form-control" id="customerName">
-                      </div>
-                      <div class="mb-3">
-                        <label for="customerEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="customerEmail">
-                      </div>
-                    </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-success" id="finalizarCompra">Finalizar Compra</button>
-                  </div>
-                </div>
+            <div class="modal-body">
+              <h4 id="jogoTitulo" class="text-center mb-3"></h4>
+              <div class="mb-3">
+                <p><strong>Data:</strong> <span id="jogoData"></span></p>
+                <p><strong>Horário:</strong> <span id="jogoHorario"></span></p>
+                <p><strong>Local:</strong> <span id="jogoLocal"></span></p>
               </div>
+              <hr />
+              <form>
+                <div class="mb-3">
+                  <label for="ticketType" class="form-label"
+                    >Tipo de Bilhete</label
+                  >
+                  <select class="form-select" id="ticketType">
+                    <option value="standard">Padrão - €25</option>
+                    <option value="premium">Premium - €50</option>
+                    <option value="vip">VIP - €100</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="ticketQuantity" class="form-label"
+                    >Quantidade</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="ticketQuantity"
+                    min="1"
+                    max="10"
+                    value="1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="customerName" class="form-label"
+                    >Nome Completo</label
+                  >
+                  <input type="text" class="form-control" id="customerName" />
+                </div>
+                <div class="mb-3">
+                  <label for="customerEmail" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="customerEmail" />
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                id="finalizarCompra"
+              >
+                Finalizar Compra
+              </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
-          
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="compraToast"
+        class="toast text-bg-white"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="toast-header">
+          <img
+            src="/assets/logoscp.svg"
+            class="rounded me-2"
+            alt="Icon"
+            style="width: 20px; height: 20px"
+          />
+          <strong class="me-auto">Compra Confirmada</strong>
+          <small>Agora</small>
+          <button
+            type="button"
+            class="btn-close btn-close-black"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">
+          Compra feita. Bilhetes serão enviados para o seu email.
+        </div>
+      </div>
+    </div>
 
-        <!-- Footer -->
-        <div id="footer-placeholder"></div>
-
-
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
 
     <!--Link js sheet-->
     <script src="/scripts/jogos.js"></script>
@@ -97,9 +164,15 @@
     <!--Link footer component-->
     <script src="/scripts/footerLoader.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
-  
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
