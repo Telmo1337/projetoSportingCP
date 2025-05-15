@@ -624,7 +624,9 @@
     {
       "id": "rui-borges",
       "nome": "Rui Borges",
+      "nomeAbreviado": "R. Borges",
       "cargo": "Treinador Principal",
+      "cargoAbreviado": "TP", 
       "nacionalidade": "Portugal",
       "idade": 43,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/rui_borges.jpg",
@@ -633,7 +635,9 @@
     {
       "id": "tiago-aguiar",
       "nome": "Tiago Aguiar",
+      "nomeAbreviado": "T. Aguiar",
       "cargo": "Treinador Adjunto",
+      "cargoAbreviado": "TA",
       "nacionalidade": "Portugal",
       "idade": 36,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/tiago_aguiar.jpg",
@@ -642,7 +646,9 @@
     {
       "id": "ricardo-chaves",
       "nome": "Ricardo Chaves",
+      "nomeAbreviado": "R. Chaves",
       "cargo": "Treinador Adjunto",
+      "cargoAbreviado": "TA",
       "nacionalidade": "Portugal",
       "idade": 47,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/ricardo_chaves.jpg",
@@ -651,7 +657,9 @@
     {
       "id": "luis-neto",
       "nome": "Luís Neto",
+      "nomeAbreviado": "L. Neto",
       "cargo": "Treinador Adjunto",
+      "cargoAbreviado": "TA",
       "nacionalidade": "Portugal",
       "idade": 36,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/luis_neto.jpg",
@@ -660,7 +668,9 @@
     {
       "id": "fernando-morato",
       "nome": "Fernando Morato",
+      "nomeAbreviado": "F. Morato",
       "cargo": "Preparador Físico",
+      "cargoAbreviado": "PF",
       "nacionalidade": "Portugal",
       "idade": 29,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/fernando_morato.jpg",
@@ -669,7 +679,9 @@
     {
       "id": "gonçalo-alvaro",
       "nome": "Gonçalo Álvaro",
+      "nomeAbreviado": "G. Álvaro",
       "cargo": "Preparador Físico",
+      "cargoAbreviado": "PF",
       "nacionalidade": "Portugal",
       "idade": 48,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st4.jpg",
@@ -678,7 +690,9 @@
     {
       "id": "jose-meireles",
       "nome": "José Meireles",
+      "nomeAbreviado": "J. Meireles",
       "cargo": "Analista de Desempenho",
+      "cargoAbreviado": "ANA", 
       "nacionalidade": "Portugal",
       "idade": 32,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/jose_meireles.jpg",
@@ -687,7 +701,9 @@
     {
       "id": "pedro-cardoso",
       "nome": "Pedro Cardoso",
+      "nomeAbreviado": "P. Cardoso",
       "cargo": "Utilizador de Performance",
+      "cargoAbreviado": "UP",
       "nacionalidade": "Portugal",
       "idade": 35,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/pedro_cardoso.jpg",
@@ -696,7 +712,9 @@
     {
       "id": "tiago-ferreira",
       "nome": "Tiago Ferreira",
+      "nomeAbreviado": "T. Ferreira",
       "cargo": "Treinador de Guarda-Redes",
+      "cargoAbreviado": "TGR",
       "nacionalidade": "Portugal",
       "idade": 49,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st3.jpg",
@@ -705,7 +723,9 @@
     {
       "id": "hugo-tecelao",
       "nome": "Hugo Tecelão",
+      "nomeAbreviado": "H. Tecelão",
       "cargo": "Treinador de Guarda-Redes",
+      "cargoAbreviado": "TGR",
       "nacionalidade": "Portugal",
       "idade": 41,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/hugo_tecelao.jpg",

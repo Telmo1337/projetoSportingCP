@@ -25,7 +25,7 @@ function fetchPlantel() {
                 </a>
                 <div class="d-flex flex-row align-items-baseline">
                     <h1 class="display-1 fw-bold me-2" style="color: #006633;">${j.numero}</h1>
-                    <h2 class="fs-1 fw-light">${j.nomeAbreviado}</h2>
+                    <h2 class="fs-4 fw-normal">${j.nomeAbreviado}</h2>
                 </div>
             `;
 
@@ -36,7 +36,49 @@ function fetchPlantel() {
     )
 }
 
+
+function fetchTreinadores() {
+    
+    const apiUrl = 'http://localhost:3000/equipa-tecnica';
+
+    fetch(apiUrl)
+    .then((res) => (res.json())) 
+    .then((data) => {
+        console.log(data)
+
+
+        const treinadoresContainer = document.getElementById("treinadoresContainer");
+
+        data.forEach((t) => {
+            
+            const col = document.createElement('div');
+            col.className = 'col ';
+
+            col.innerHTML = `
+                <a href="treinador.html?id=${t.id}">
+                    <img src="${t.imagem}" class="img-fluid" style="width:90%; cursor: pointer;">
+                </a>
+                <div class="d-flex flex-row align-items-baseline">
+                    <h1 class="display-4 fw-bold me-2" style="color: #006633;">${t.cargoAbreviado}</h1>
+                    <h2 class="fs-4 fw-normal">${t.nomeAbreviado}</h2>
+                </div>
+            `;
+            treinadoresContainer.appendChild(col);
+
+        })
+    })
+    .catch((err) => {
+        console.error(err);
+    });
+}
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     fetchPlantel();
+
+
+    //fetch treinadores
+    fetchTreinadores();
   })
   
