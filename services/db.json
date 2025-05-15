@@ -342,7 +342,60 @@
       "peso": "80 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/matheus_reis.jpg",
       "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-gem4dchpdz9jouz.jpg?itok=Pz4_SFxy",
-      "codigo": "br"
+      "codigo": "br",
+      "conquistas": [
+        {
+          "ano": ["2017"],
+          "titulo": "Copa do Noroeste",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores" : [
+        {
+          "nome": "São Paulo FC",
+          "ano": "2008-2014"
+        },
+        {
+          "nome": "C. Atlético Sorocaba (emprestado)",
+          "ano": "2014"
+        },
+        {
+          "nome": "São Paulo FC",
+          "ano": "2014-2017"
+        },
+        {
+          "nome": "EC Bahia (emprestado)",
+          "ano": "2017"
+        },
+        {
+          "nome": "Moreirense FC (emprestado)",
+          "ano": "2017/18"
+        },
+        {
+          "nome": "Rio Ave FC",
+          "ano": "2018-2021"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2021"
+        }
+      ],
+      "biografia": "Natural de São João da Boavista, em São Paulo (Brasil), Matheus Reis fez toda a formação no São Paulo FC. No tricolor despontou e estreou-se em 2015 na equipa profissional, após um ano de empréstimo no Atlético Sorocaba, onde havia disputado o Campeonato Paulista. Após três dezenas de jogos pelo 'tricolor', seguiu por empréstimo para o Bahia, onde venceu a Copa do Nordeste. Chegou a Portugal em 2018 para jogar por empréstimo no Moreirense e passados alguns meses ficou em definitivo no Rio Ave. Chegou ao Sporting CP em janeiro de 2021, bem a tempo de contribuir para a conquista do Campeonato Nacional. Já em 2021/22, acrescentou uma Supertaça e uma Taça da Liga ao seu palmarés e na terceira temporada de verde e branco vestido sagrou-se bicampeão nacional."
     },
     {
       "id": "jeremy-st-juste",

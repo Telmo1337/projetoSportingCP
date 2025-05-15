@@ -2,12 +2,7 @@ function fetchPlantel() {
 
     const apiUrl = 'http://localhost:3000/jogadores';
 
-    fetch(apiUrl, {
-        method: 'GET',
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
+    fetch(apiUrl)
 
     .then((res) => (res.json()))
     .then((data) => {
