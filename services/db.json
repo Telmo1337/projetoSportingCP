@@ -408,7 +408,44 @@
       "altura": "1,84 m",
       "peso": "79 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/st._juste.jpg",
-      "codigo": "nl"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202407/imgonline-com-ua-compresstosize-sf6jf2cvf1m.jpg?itok=DajlE0Px",
+      "codigo": "nl",
+      "conquistas" : [
+        {
+          "ano": ["2017/18", "2018/19"],
+          "titulo": "Supertaça dos Países Baixos",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2017/18"],
+          "titulo": "Taça dos Países Baixos",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "SC Heerenveen",
+          "ano": "2004-2017"
+        },
+        {
+          "nome": "Feyenoord",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "FSV Mainz 05",
+          "ano": "2019-2022"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2022"
+        }
+      ],
+      "biografia": "Jeremiah St. Juste nasceu em Groningen e fez toda a formação no SC Heerenveen. Foram 13 temporadas no clube da sua cidade, num percurso que culminou com a estreia na Eredivisie com apenas 18 anos. Em 2017, já com estatuto internacional pelos sub-21 neerlandeses, transferiu-se para o Feyenoord onde venceu uma Taça da Holanda e duas Supertaças em apenas duas temporadas. Com experiência de jogo tanto à direita como ao centro da defesa, St. Juste acrescenta versatilidade e velocidade ao sector mais recuado dos Leões, num compromisso assumido até 2026. Vai para a terceira temporada de Leão ao peito e ja conta com um título de campeão nacional."
     },
     {
       "id": "zeno-debast",
@@ -421,7 +458,26 @@
       "altura": "1,91 m",
       "peso": "76 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/debast.jpg",
-      "codigo": "be"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202407/zeno_debast.jpg?itok=RI7oi19G",
+      "codigo": "be",
+      "conquistas": [
+        {
+          "ano": [""],
+          "titulo": "",
+          "quantidade": null
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "RSC Anderlecht",
+          "ano": "2010-2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Zeno Debast é produto da formação do RSC Anderlecht, onde ingressou ainda no escalão sub-8. Exemplo de trabálho árduo, persistência e paciência, formou-se como médio e fixou-se como defesa central. A sua técnica, calma com bola e qualidade de passe são características que o levaram a estrear-se na equipa principal dos belgas ainda com 18 anos. É internacional pela selecção da Bélgica desde os 15 anos, quando se estreou nos sub-17 e foi com ainda antes dos 19 anos que chegou à principal equipa do seu país. Assinou com o Sporting CP em julho de 2024 um vínculo válido até 2029, com uma cláusula de rescisão de 80 milhões de euros. Aos meios de comunicação Leoninos disse estar a cumprir um sonho e mostrou-se ansioso por mostrar as suas qualidades."
     },
     {
       "id": "ivan-fresneda",
@@ -434,7 +490,8 @@
       "altura": "1,81 m",
       "peso": "79 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/fresneda.jpg",
-      "codigo": "es"
+      "codigo": "es",
+      "biografia": ""
     },
     {
       "id": "gonçalo-inacio",
