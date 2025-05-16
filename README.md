@@ -1,7 +1,9 @@
-## COMO COMEÇAR ##
+## How to start ##
 
  - git clone https://github.com/Telmo1337/projetoSportingCP
 
- - No terminal: npm run api
+ - CMD: npm run api
+
+ - Open Live Server
 
  - hf :D
