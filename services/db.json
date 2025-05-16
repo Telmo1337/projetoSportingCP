@@ -490,8 +490,42 @@
       "altura": "1,81 m",
       "peso": "79 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/fresneda.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-9pon1n4s9s4fjoa9.jpg?itok=lPv03cQP",
       "codigo": "es",
-      "biografia": ""
+      "conquistas": [
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "CF Quijorna",
+          "ano": "2008-2013"
+        },
+        {
+          "nome": "EFMO Boadilla",
+          "ano": "2013-2014"
+        },
+        {
+          "nome": "Real Madrid CF",
+          "ano": "2014-2018"
+        },
+        {
+          "nome": "CD Leganés",
+          "ano": "2018-2020"
+        },
+        {
+          "nome": "Real Valladolid CF",
+          "ano": "2020-2023"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2023"
+        }
+      ],
+      "biografia": "Iván Fresneda nasceu em Madrid e começou a jogar futebol no CF Quijorna, aos 4 anos. Uma passagem pela EFMO Boadilla antecedeu a chegada ao Real Madrid, onde permaneceu quatro temporadas. Em 2018 chegou ao Leganés, mas seria no Real Valladolid que atingiria o patamar sénior. Internacional espanhol em vários escalões de formação, esteve no último Europeu de sub-19, no qual a Espanha chegou às meias-finais. Chegou ao Sporting CP com contrato até 2028 e uma cláusula de rescisão de 80 milhões de euros. Orgulhoso por vestir a verde-e-branca, o lateral-direito quer desfrutar ao máximo desta nova etapa, promete dar tudo pelo Clube e pelos seus adeptos e na primeira época de Leão ao peito sagrou-se campeão nacional."
     },
     {
       "id": "gonçalo-inacio",
@@ -504,7 +538,36 @@
       "altura": "1,85 m",
       "peso": "81 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/inacio.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-ewfczjlqjbrt.jpg?itok=uIdHXxkK",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2020/21", "2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Almada AC",
+          "ano": "2010-2012"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2012"
+        }
+      ],
+      "biografia": "Natural do Seixal e residente no bairro de Miratejo, Gonçalo Inácio começou a jogar futebol aos quatro anos, na Escola de Futebol de Fernando Chalana. Rumou ao Almada AC em 2010 e dois anos depois chegou ao Sporting CP. Percorreu todos os escalões de formação Leoninos, sendo também internacional português nos escalões jovens desde 2017, entre os sub-17 e sub-20. Com mais de 160 jogos e 15 golos em quatro temporadas, Gonçalo Inácio contribuiu para as conquistas de duas Taças da Liga, dois Campeonatos nacionais e uma Supertaça. Com contrato até 2027, revela empenho para continuar a representar o símbolo que envergou toda a carreira, dando sempre o máximo pela equipa."
     },
     {
       "id": "ousmane-diomande",
@@ -517,7 +580,34 @@
       "altura": "1,88 m",
       "peso": "93 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/diomande.jpg",
-      "codigo": "ci"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-lyx2fqemsm.jpg?itok=Y7bxALai",
+      "codigo": "ci",
+      "conquistas": [
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "FCOS d'Abobo",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "FC Midtjylland",
+          "ano": "2020-2022"
+        },
+        {
+          "nome": "CD Mafra",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2022"
+        }
+      ],
+      "biografia": "Ousmane Diomande é natural da Costa do Marfim e começou a jogar futebol no FCOS d'Abobo, aos 10 anos. Percorreu todos os escalões de formação do clube e participou na subida histórica da equipa principal do clube ao campeonato da 3.ª divisão. Transferido para o FC Midtjylland em 2020, passou a primeira metade desta temporada no CD Mafra, onde as suas qualidades não passaram despercebidas ao Sporting CP. Assinou com os Leões um contrato até 2027, iniciando um percurso que se espera de muito sucesso. Na segunda temporada com as cores Leoninas celebrou aquele que é o seu primeiro título de campeão nacional."
     },
     {
       "id": "ricardo-esgaio",
@@ -530,7 +620,77 @@
       "altura": "1,72 m",
       "peso": "72 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/esgaio.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-49jgcy2x225xyg8l.jpg?itok=sZ_13Ip7",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2007/08"],
+          "titulo": "Campeonato Nacional Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2008/09"],
+          "titulo": "Campeonato Distrital Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2011/12"],
+          "titulo": "Campeonato Distrital Sub-19",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2012/13"],
+          "titulo": "Campeonato Nacional Sub-19",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2014/15", "2020/21"],
+          "titulo": "Taça de Portugal",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2019/20", "2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "GB ''Os Nazarenos''",
+          "ano": "2001-2005"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2005-2015"
+        },
+        {
+          "nome": "A. Académica de Coimbra (emprestado)",
+          "ano": "2015"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2015-2017"
+        },
+        {
+          "nome": "SC Braga",
+          "ano": "2017-2021"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2021"
+        }
+      ],  
+      "biografia":"Nascido na Nazaré, chegou em 2005 aos infantis do Sporting. Foi campeão nacional de iniciados e juniores antes de passar para a equipa B, onde deu nas vistas ao marcar 17 golos em 27 encontros. Estreou-se na equipa principal em dezembro de 2012 como titular num jogo da Liga Europa e em 2013/14 voltou a fazer mais uma grande temporada na equipa B (39 jogos com 16 golos). Na época seguinte fez dez partidas no conjunto principal antes de ser cedido à AA Coimbra durante seis meses, de onde voltou para mais duas temporadas de Leão ao peito. Com quase 100 internacionalizações em todos os escalões jovens portugueses, Ricardo Esgaio marcou presença em fases finais de um Campeonato da Europa de Sub-19, um Campeonato do Mundo de Sub-20, um Campeonato da Europa de Sub-21 e uns Jogos Olímpicos. Em 2017 saiu para o SC Braga e após quatro temporadas no Minho, regressou a Alvalade mais maduro e preparado para ajudar o Sporting a conquistar mais troféus. Atingiu em 2023/24 o pleno de títulos nacionais pelos Leões, acrescentando o campeonato nacional às conquistas de uma Taça de Portugal, uma Taça da Liga e uma Supertaça."
     },
     {
       "id": "eduardo-quaresma",
@@ -543,7 +703,43 @@
       "altura": "1,83 m",
       "peso": "79 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/quaresma.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-jehfxrdk7v658.jpg?itok=o0Cox5zC'",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2020/21"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "CD Fabril Barreiro",
+          "ano": "2010-2011"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2011-2021"
+        },
+        {
+          "nome": "CD Tondela (emprestado)",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "TSG Hoffenheim (emprestado)",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2023"
+        }
+      ],
+      "biografia": "Natural do Barreiro, foi ainda com nove anos que chegou ao Sporting CP, vindo do GD Fabril. Trilhou todo o percurso o Pólo EUL ao Estádio José Alvalade, passando em todos os escalões de formação, desde os sub-13 à equipa principal. Debutou em junho de 2020, sendo o mais novo da história do Clube a estrear-se como titular na equipa principal, no centro da defesa. Internacional português em todos os escalões jovens nacionais, desde os sub-15, Quaresma é um defesa central com um percurso sólido nas selecções de Portugal. A sua temporada de estreia rendeu a conquista de uma Taça da Liga e um Campeonato Nacional, em 2020/2021. Esteve emprestado ao CD Tondela e ao TSG Hoffenheim, regressando para se sagrar bicampeão nacional pelo Sporting."
     },
     {
       "id": "hidemasa-morita",

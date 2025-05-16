@@ -68,7 +68,7 @@ function fetchJogadorDetalhes() {
                         <h5 class="card-title mb-0">Linha Temporal da Carreira</h5>
                     </div>
                     <div class="card-body timeline">
-                        <p class="text-muted">teste</p>
+                        <ul class="text-muted">${j.clubesAnteriores.map(c => `<li>${c.nome} (${c.ano})</li>`).join('')}</ul>
                     </div>
                 </div>
                 
@@ -77,7 +77,7 @@ function fetchJogadorDetalhes() {
                         <h5 class="card-title mb-0">Conquistas</h5>
                     </div>
                     <div class="card-body">
-                        <p class="text-muted">teste</p>
+                        <ul class="text-muted">${j.conquistas.map(c => `<li>${c.quantidade} - ${c.titulo} (${c.ano})</li>`).join('')}</ul>
                     </div>
                 </div>
 
