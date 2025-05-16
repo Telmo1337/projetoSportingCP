@@ -462,9 +462,9 @@
       "codigo": "be",
       "conquistas": [
         {
-          "ano": [""],
-          "titulo": "",
-          "quantidade": null
+          "ano": ["AAAA"],
+          "titulo": "Ainda sem Conquistas",
+          "quantidade": "0"
         }
       ],
       "clubesAnteriores": [
@@ -752,7 +752,16 @@
       "altura": "1,77 m",
       "peso": "76 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/morita.jpg",
-      "codigo": "jp"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-gmn1gydqekvwv.jpg?itok=a8cY7jSL",
+      "codigo": "jp",
+      "conquistas": [
+        {
+          "ano": [],
+          "titulo": "Liga do Japão",
+          "quantidade": 1
+        }
+      ],
+      "biografia": "Hidemasa Morita é natural da cidade de Takatsuki, no Japão. Com uma família mais ligada ao ténis, foi o futebol (que praticava com o irmão mais velho) que desde cedo captou a sua atenção. Rebelde e persistente, Morita perseguiu o sonho de ser profissional de futebol desde os primeiros passos, no Takatsuki Shimizu FC, onde jogava maioritariamente por paixão, até à universidade de Ryutsu Keizai, onde se preparou afincadamente para enfrentar o profissionalismo. Em 2018 assinou contrato com o então campeão da J-League, Kawasaki Frontale e estreou-se pela selecção nacional japonesa ainda em 2018. Em três temporadas venceu dois campeonatos japoneses, uma supertaça, uma taça do Japão e uma Taça da Liga. Chegou ao CD Santa Clara em janeiro de 2021 e uma época e meia em Portugal foram suficientes para o Sporting CP avançar para a sua contratação, com vista ao reforço do meio-campo. Morita acumula já mais de 70 jogos de verde-e-branco e um título de campeão nacional em 2023/24."
     },
     {
       "id": "pedro-goncalves",

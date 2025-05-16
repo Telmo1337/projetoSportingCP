@@ -41,7 +41,7 @@ function fetchNoticias() {
       const noticiasContainer = document.getElementById("noticiasContainer");
 
       //slice 0,3 para apenas apresentar as 3 primeiras noticias que estao na api
-      data.slice(0, 3).forEach((n) => {
+      data.slice(3, 6).forEach((n) => {
         const col = document.createElement('div');
         col.className = 'col-md-6 col-lg-4';
 
