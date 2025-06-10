@@ -43,7 +43,7 @@
       "categoria": "Clube",
       "data": "2025-04-05",
       "hora": "19:00",
-      "imgURL": "https://example.com/images/promessa.jpg",
+      "imgURL": "/assets/lol.png",
       "description": "Telmo Regalado, estreia-se com assistência.",
       "content": "A jovem promessa Telmo Regalado teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
       "link": "https://example.com/news/estreia-tiago"
@@ -825,6 +825,7 @@
       "altura": "1,73 m",
       "peso": "78 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/pote.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-mx4wzyy9ybjg.jpg?itok=cLcz4SeZ",
       "codigo": "pt",
       "conquistas": [
         {
@@ -886,6 +887,7 @@
       "altura": "1,78 m",
       "peso": "72 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/braganca.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-0fohvzzfr94t.jpg?itok=f0XquOAQ",
       "codigo": "pt",
       "conquistas": [
         {
@@ -959,6 +961,7 @@
       "altura": "1,85 m",
       "peso": "78 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/morten.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-adsi89md06dqbsm.jpg?itok=YyUrXA_Z",
       "codigo": "dk",
       "conquistas": [
         {
@@ -1003,6 +1006,7 @@
       "altura": "1,75 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/joao_simoes.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202503/capa_scp_1.jpeg?itok=cGfszQ_8",
       "codigo": "pt",
       "conquistas": [
         {
@@ -1044,6 +1048,7 @@
       "altura": "1,89 m",
       "peso": "94 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/gyokeres.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/20230812_fut_5_joselorvao.jpg?itok=nawa-Toy",
       "codigo": "se",
       "conquistas": [
         {
@@ -1108,6 +1113,7 @@
       "altura": "1,77 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/nuno_santos.jpg",
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-opwuhyswbln8i.jpg?itok=FkhcWRMZ",
       "codigo": "pt",
       "conquistas": [
         {
@@ -1252,7 +1258,30 @@
       "altura": "1,85 m",
       "peso": "84 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202410/harder.jpg",
-      "codigo": "dk"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202409/imgonline-com-ua-compresstosize-ie6mlf1r8kt.jpg?itok=nNTuB2AW",
+      "codigo": "dk",
+      "conquistas": [
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "KB (Kjøbenhavns Boldklub)",
+          "ano": "2017-2018"
+        },
+        {
+          "nome": "FC Nordsjælland",
+          "ano": "2018-2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Natural de Holte, na Dinamarca, Conrad Harder comçeou a formação no KB (Kjøbenhavns Boldklub). Mudou-se para o FC Nordsjælland em 2018, chegou às selecções jovens da Dinamarca e estreou-se na equipa sénior dinamarquesa aos 18 anos, em 2023. Após uma temporada completa na equipa de Farum, Harder chegou ao Sporting em 2024, ficando com contrato até 2029 e cláusula de rescisão de 80 milhões de euros. Já de Leão ao peito referiu que traz para Alvalade grandes ambições, vincando que pretende ganhar muitos títulos e marcar muitos golos."
     },
     {
       "id": "maxi-araujo",
@@ -1265,7 +1294,38 @@
       "altura": "1,76 m",
       "peso": "75 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202410/maxi_2.jpg",
-      "codigo": "uy"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202408/maxi_araujo.jpg?itok=b-33Bi4b",
+      "codigo": "uy",
+      "conquistas": [
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Marconi FC",
+          "ano": "2012-2018"
+        },
+        {
+          "nome": "Montevideo Wanderers",
+          "ano": "2018-2020"
+        },
+        {
+          "nome": "CF Puebla",
+          "ano": "2020-2022"
+        },
+         {
+          "nome": "Toluca FC",
+          "ano": "2022-2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Natural de Montevideu, no Uruguai, Maxi Araújo cresceu em Marconi, um bairro da capital uruguaia onde também começou a jogar futebol. A chegada ao Montevideo Wanderers foi fundamental para a sua evolução e o primeiro contacto com o profissionalismo valeu-lhe uma transferência para o futebol mexicano. Jogou no CF Puebla e depois no Toluca. O extremo esquerdo é internacional uruguaio nos escalões jovens, já se estreou na principal selecção do seu país e esteve na última edição da Copa América. O jovem de 24 anos assinou contrato com o Sporting CP até 2029, com uma cláusula de rescisão cifrada nos 80 milhões de euros. Diz conhecer bem o Clube e ambiciona conquistar muitos títulos e deixar a sua marca na história dos Leões."
     },
     {
       "id": "geny-catamo",
@@ -1278,7 +1338,51 @@
       "altura": "1,73 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/geny_catamo.jpg",
-      "codigo": "mz"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-bfafmqist7yhcjjd.jpg?itok=ux_aWlep",
+      "codigo": "mz",
+      "conquistas": [
+        {
+          "ano": ["2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "CD Maxaquene",
+          "ano": "2010-2018"
+        },
+        {
+          "nome": "Associação Black Bulls",
+          "ano": "2018"
+        },
+        {
+          "nome": "Amora FC",
+          "ano": "2018-2019"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2019-2022"
+        },
+        {
+          "nome": "Vitória SC (emprestado)",
+          "ano": "2022"
+        },
+        {
+          "nome": "CS Marítimo (emprestado)",
+          "ano": "2022/23"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2023"
+        } 
+      ],
+      "biografia": "Geny Catamo nasceu em Maputo, em Moçambique e fez a formação no CD Maxaquene. Internacional pelos escalões jovens de Moçambique, seguiu para a Associação Black Bulls e chegou a Portugal em 2018. As suas prestações nos juniores e nos seniores do Amora FC fizeram com que o Sporting CP se antecipasse em recrutar Catamo. Integrou a equipa de juniores em 2019/2020 e as suas prestações valeram-lhe a chamada à selecção principal de Moçambique, onde se estreou com um golo no primeiro encontro, sendo o mais jovem de sempre a marcar na estreia a titular pelos ''Mambas''. Alinhou em 30 ocasiões pela equipa B do Sporting e estreou-se pela equipa principal em dezembro de 2021. Regressou para integrar a equipa principal, após empréstimos ao Vitória SC e CS Marítimo e foi campeão nacional em 2023/24."
     },
     {
       "id": "biel",
@@ -1291,7 +1395,62 @@
       "altura": "1,70 m",
       "peso": "62 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/biel.jpg",
-      "codigo": "br"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202502/sem_titulo_11.jpeg?itok=9l6Y7Q9g",
+      "codigo": "br",
+      "conquistas": [
+        {
+          "ano": ["2018"],
+          "titulo": "Campeonato Carioca Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2022"],
+          "titulo": "Campeonato Carioca",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023"],
+          "titulo": "Campeonato Baiano",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Fluminense FC",
+          "ano": "2013-2019"
+        },
+        {
+          "nome": "SER Santo Ângelo",
+          "ano": "2020"
+        },
+        {
+          "nome": "FC STK Samorín 1914",
+          "ano": "2020"
+        },
+        {
+          "nome": "Fluminense FC",
+          "ano": "2020-2022"
+        },
+        {
+          "nome": "Grêmio FBPA",
+          "ano": "2022"
+        },
+        {
+          "nome": "EC Bahia",
+          "ano": "2022-2025"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2025"
+        }
+      ],
+
+      "biografia": "Natural de Maracanaú, no Ceará, Gabriel Teixeira Aragão foi descoberto aos 12 anos pelo Fluminense e fez parte da geração de ouro que venceu o Campeonato Carioca sub-17, em 2018. Biel, alcunha como era tratado pelos irmãos, familiares e amigos passou a ser o nome pelo qual ficou conhecido no futebol sénior onde, após passagem pelo FC STK Samorín, da Eslováquia, se impôs no futebol brasileiro. Voltou ao Fluminense, jogou no Grêmio e, mais recentemente, no Bahia. Chegou ao Sporting CP no fecho do mercado de inverno da temporada 2024/25 e assinou contrato válido até junho de 2029. Feliz por poder jogar num grande clube Europeu, chega confiante que poderá melhorar as suas capacidades e acrescentar valor ao actual plantel."
     },
     {
       "id": "geovany-quenda",
@@ -1304,7 +1463,40 @@
       "altura": "1,72 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/quenda.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-du76fxd35x.jpg?itok=kaZO5Izf",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2017/18"],
+          "titulo": "Campeonato Distrital Sub-10",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Campeonato Nacional Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "SF Damaiense",
+          "ano": "2016-2017"
+        },
+        {
+          "nome": "SL Benfica",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2019"
+        }
+      ],
+      "biografia":"Geovany Quenda é avançado e nasceu na Guiné-Bissau. Em portugal iniciou o seu percurso nos sub-10 do SF Damaiense, passando depois duas temporadas no SL Benfica. Chegou ao Sporting CP em 2019, passando nas duas primeiras temporadas pelas dificuldades causadas pelas restrições que a COVID-19 trouxe às competições desportivas em 2021/22 alinhou pelos escalões sub-15, com o qual foi campeão nacional e sub-17. É internacional sub-17 por Portugal, esteve no último Campeonato da Europa da categoria e marcou 20 golos pelos sub-17 Leoninos. Em 2023/24 ascendeu dois escalões, esteve integrado no plantel sub-23, estreou-se na Liga Revelação e ainda na Liga 3. Esta nova temporada traz nova subida de escalão, integrado o plantel principal às ordens de Rúben Amorim."
     },
     {
       "id": "afonso-moreira",
@@ -1317,9 +1509,40 @@
       "altura": "1,76 m",
       "peso": "72 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/afonso_moreira.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-pxjnz9naxikffr.jpg?itok=Nu4_q-Xa",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2021/22"],
+          "titulo": "Campeonato Nacional Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Cracks Clube de Lamego",
+          "ano": "2013-2017"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2017-2024"
+        },
+        {
+          "nome": "Gil Vicente FC (emprestado)",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Natural de Lamego, foi no Cracks Clube de Lamego que Afonso Moreira deu os primeiros passos, destacando-se como uma máquina de fazer golos. Os números e a qualidade impressionaram o gabinete de observação Leonino, que o recrutou em 2017, ano em que passou a ser atleta residente na Academia Sporting. Com a pandemia da COVID-19 a atrapalhar o volume competitivo nos primeiros anos na Academia, foi em 2021/22 que Afonso Moreira pôde mostrar-se mais, de tal forma que foi uma das figuras do título nacional de sub-17 dos Leões, actuando também pelos sub-19. 2021 foi também ano de estreia nas seleções nacionais, participando em toda a caminhada dos sub-17 portugueses até às meias-finais do Campeonato da Europa, onde também foi figura em destaque. Integrado na equipa B em 2022/23, subiu ao patamar mais alto e estreou-se na equipa principal em 2023/24, ano em que foi campeão nacional, apesar de ter fechado a temporada por emprétimo no Gil Vicente FC. Esta temporada está de regresso ao Clube e pronto para atacar o bicampeonato."
     }
-   
   ],
 
   "equipa-tecnica": [

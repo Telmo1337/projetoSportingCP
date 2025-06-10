@@ -81,6 +81,7 @@ function mostrarJogos() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  
   mostrarJogos();
 
   // finalizar a compra dos bilhetyes
