@@ -254,9 +254,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores" : [
@@ -309,9 +309,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores" : [
@@ -350,9 +350,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2020/21", "2023/24"],
+          "ano": ["2020/21", "2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 2
+          "quantidade": 3
         },
         {
           "ano": ["2021/22"],
@@ -422,9 +422,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores": [
@@ -462,9 +462,9 @@
       "codigo": "be",
       "conquistas": [
         {
-          "ano": ["AAAA"],
-          "titulo": "Ainda sem Conquistas",
-          "quantidade": "0"
+          "ano": ["2023/24"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
         }
       ],
       "clubesAnteriores": [
@@ -494,9 +494,9 @@
       "codigo": "es",
       "conquistas": [
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores": [
@@ -542,9 +542,9 @@
       "codigo": "pt",
       "conquistas": [
         {
-          "ano": ["2020/21", "2023/24"],
+          "ano": ["2020/21", "2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 2
+          "quantidade": 3
         },
         {
           "ano": ["2021/22"],
@@ -584,9 +584,9 @@
       "codigo": "ci",
       "conquistas": [
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores": [
@@ -659,9 +659,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2023/24"],
+          "ano": ["2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 1
+          "quantidade": 2
         }
       ],
       "clubesAnteriores": [
@@ -712,9 +712,9 @@
           "quantidade": 1
         },
         {
-          "ano": ["2020/21", "2023/24"],
+          "ano": ["2020/21", "2023/24", "2024/25"],
           "titulo": "Liga Portuguesa",
-          "quantidade": 2
+          "quantidade": 3
         }
       ],
       "clubesAnteriores": [
@@ -756,11 +756,62 @@
       "codigo": "jp",
       "conquistas": [
         {
-          "ano": [],
+          "ano": ["2018", "2020"],
           "titulo": "Liga do Japão",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2020"],
+          "titulo": "Taça do Japão",
           "quantidade": 1
+        },
+        {
+          "ano": ["2019"],
+          "titulo": "Taça da Liga do Japão",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2019"],
+          "titulo": "Supertaça do Japão",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
         }
       ],
+      "clubesAnteriores": [
+        {
+          "nome": "Takatsuki Shimizu FC",
+          "ano": "2005-2008"
+        },
+        {
+          "nome": "Takatsuki Municipal Ninth Junior High School",
+          "ano": "2008-2011"
+        },
+        {
+          "nome": "Konko Osaka High School",
+          "ano": "2011-2014"
+        },
+        {
+          "nome": "Ryutsu Keizai UFC",
+          "ano": "2014-2018"
+        },
+        {
+          "nome": "Kawasaki Frontale",
+          "ano": "2014-2018"
+        },
+        {
+          "nome": "CD Santa Clara",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2022"
+        }
+      ],
+
       "biografia": "Hidemasa Morita é natural da cidade de Takatsuki, no Japão. Com uma família mais ligada ao ténis, foi o futebol (que praticava com o irmão mais velho) que desde cedo captou a sua atenção. Rebelde e persistente, Morita perseguiu o sonho de ser profissional de futebol desde os primeiros passos, no Takatsuki Shimizu FC, onde jogava maioritariamente por paixão, até à universidade de Ryutsu Keizai, onde se preparou afincadamente para enfrentar o profissionalismo. Em 2018 assinou contrato com o então campeão da J-League, Kawasaki Frontale e estreou-se pela selecção nacional japonesa ainda em 2018. Em três temporadas venceu dois campeonatos japoneses, uma supertaça, uma taça do Japão e uma Taça da Liga. Chegou ao CD Santa Clara em janeiro de 2021 e uma época e meia em Portugal foram suficientes para o Sporting CP avançar para a sua contratação, com vista ao reforço do meio-campo. Morita acumula já mais de 70 jogos de verde-e-branco e um título de campeão nacional em 2023/24."
     },
     {
@@ -774,7 +825,55 @@
       "altura": "1,73 m",
       "peso": "78 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/pote.jpg",
-      "codigo": "pt"
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2020/21", "2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 3
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Vidago FC",
+          "ano": "2006-2008"
+        },
+        {
+          "nome": "GD Chaves",
+          "ano": "2008-2010"
+        },
+        {
+          "nome": "SC Braga",
+          "ano": "2010-2015"
+        },
+        {
+          "nome": "Valencia CF",
+          "ano": "2015-2017"
+        },
+        {
+          "nome": "Wolverhampton WFC",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "Famalicão FC",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2020"
+        }
+      ],
+      "biografia": "Natural de Vidago, foi no clube da sua terra, onde a sua mãe era roupeira que Pedro Gonçalves deu os primeiros passos no futebol. Batizado de ''Potinho'' na terra natal, por ser pequenino e gordinho, haveria de transformar-se em ''Pote'', em Braga, já depois de ter batido todos os recordes de golos da AF de Vila Real, ao serviço do GD Chaves. Internacional português, com passagens pelo Valencia CF e Wolverhampton WFC, Pedro Gonçalves deu nas vistas em Famalicão na temporada 2019/2020 e chegou ao Sporting CP na época seguinte. Orgulhoso por vestir a camisola verde e branca, foi o melhor marcador Leonino em 2020/2021 com 23 golos, todos na Liga Portuguesa, prova que o Sporting também conquistou com o importante contributo de Pedro Gonçalves. Bicampeão nacional pelo Sporting, acumula ainda duas Taças da Liga e uma Supertaça."
     },
     {
       "id": "daniel-braganca",
@@ -787,7 +886,67 @@
       "altura": "1,78 m",
       "peso": "72 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/braganca.jpg",
-      "codigo": "pt"
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2013/14"],
+          "titulo": "Campeonato Distrital Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2015/16"],
+          "titulo": "Campeonato Distrital Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2015/16"],
+          "titulo": "Campeonato Nacional Sub-17",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2016/17"],
+          "titulo": "Campeonato Nacional Sub-19",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 2
+        },
+          {
+          "ano": ["2020/21", "2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 3
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Footkart EFKA",
+          "ano": "2006-2007"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2007-2019"
+        },
+        {
+          "nome": "SC Farense (emprestado)",
+          "ano": "2019"
+        },
+        {
+          "nome": "GD Estoril Praia (emprestado)",
+          "ano": "2019/20"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2020"
+        }
+      ],
+      "biografia": "Natural de Fazendas de Almeirim, Daniel Bragança é atleta do Sporting CP desde os oito anos, após iniciação no Footkart, de Almeirim. Volvidas doze temporadas e meia ao serviço dos leões, onde conquistou dois campeonatos nacionais jovens, nos escalões de juvenis e juniores, saiu pela primeira vez do clube para representar por empréstimo o SC Farense e o GD Estoril Praia. A aventura na Segunda Liga correu bem e Bragança foi mesmo o melhor jogador jovem da temporada 2019/2020. Internacional português nos escalões sub-18, sub-20 e sub-21, Bragança está de pedra e cal na principal equipa Leonina, onde já conquistou duas Taças da Liga, dois Campeonatos Nacionais e uma Supertaça."
     },
     {
       "id": "morten-hjulmand",
@@ -800,7 +959,38 @@
       "altura": "1,85 m",
       "peso": "78 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/morten.jpg",
-      "codigo": "dk"
+      "codigo": "dk",
+      "conquistas": [
+        {
+          "ano": ["2021/22"],
+          "titulo": "Serie B Italiana",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "FC København",
+          "ano": "2016-2018"
+        },
+        {
+          "nome": "FC Admira Wacker",
+          "ano": "2019-2021"
+        },
+        {
+          "nome": "US Lecce",
+          "ano": "2021-2023"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2023"
+        }
+      ],  
+      "biografia": "Natural de Kastrup, nos arredores de Copenhaga, Morten Hjulmand foi formado no FC København. Contratado pelo FC Admira Wacker, em 2019, haveria de assinar pelo US Lecce, em 2021. Eleito capitão de equipa dos italianos, apenas 18 meses após ingressar no Clube, chega agora ao Sporting para reforçar o meio-campo. Internacional dinamarquês desde o escalão sub-18, Hjulmand já foi chamado à equipa principal do seu país, mas ainda não teve a oportunidade de se estrear. Já de Leão ao peito, descreveu-se como um jogador forte nos duelos, que oferece muito equilíbrio à equipa. Feliz pelo passo dado, assume que a reputação de Clube formador também pesou na decisão, dado que ainda é um jovem e tem muito para evoluir. A primeira temporada de Leão ao peito correu de feição e Hjulmand sagrou-se campeão nacional 2023/24."
     },
     {
       "id": "joao-simoes",
@@ -813,7 +1003,35 @@
       "altura": "1,75 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202503/joao_simoes.jpg",
-      "codigo": "pt"
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2018/19"],
+          "titulo": "Campeonato Nacional Sub-12",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Campeonato Nacional Sub-15",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "Portimonense SC",
+          "ano": "2014-2018"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2018"
+        }
+      ],
+      "biografia": "João Simões é natural de Portimão e foi no Portimonense SC que ingressou no futebol. Chegou ao Sporting CP com apenas 11 anos, foi campeão nacional sub-15 em 2022 e já conta com mais de 50 internacionalizações pelos escalões jovens de Portugal. O médio algarvio subiu patamares muito rapidamente, estreou-se nos sub-17 com 15 anos e nos sub-19 com 16. Em 2024/2025 começou nos sub-19, mas rapidamente ascendeu à equipa B, tendo mesmo feito a estreia na equipa principal em novembro de 2024, com apenas 17 anos, num jogo a contar para a Taça de Portugal. Está desde então integrado na equipa principal, onde até já se estreou a marcar."
     },
     {
       "id": "viktor-gyokeres",
@@ -826,7 +1044,58 @@
       "altura": "1,89 m",
       "peso": "94 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/gyokeres.jpg",
-      "codigo": "se"
+      "codigo": "se",
+      "conquistas": [
+        {
+          "ano": ["2017"],
+          "titulo": "2º Divisão Sueca",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "IFK Aspudden-Tellus",
+          "ano": "2004-2014"
+        },
+        {
+          "nome": "IF Brommapojkarna",
+          "ano": "2014-2017"
+        },
+        {
+          "nome": "Brighton & Hove Albion",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "FC St. Pauli (emprestado)",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "Brighton & Hove Albion",
+          "ano": "2020"
+        },
+        {
+          "nome": "Swansea City (emprestado)",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "Coventry City (emprestado)",
+          "ano": "2021"
+        },
+        {
+          "nome": "Coventry City",
+          "ano": "2021-2023"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2023"
+        }
+      ],
+      "biografia": "Viktor Gyökeres é natural de Hägersten (Estocolmo) e começou a jogar futebol no IFK Aspudden-Tellus. Após três temporadas no IF Brommapojkarna, assinou pelo Brighton no verão de 2017, mas só se juntou ao clube da Premier League em janeiro do ano seguinte. Na primeira temporada em Inglaterra ajudou a equipa sub-23 do Brighton a ascender ao principal escalão da categoria, com 11 golos em 12 jogos e em agosto de 2018 fez o primeiro jogo com a equipa principal, para a Taça da Liga. Em 2019/2020 jogou por empréstimo no FC St. Pauli e após uma temporada positiva no segundo escalão alemão regressou a Inglaterra. Dividiu a temporada 2020/2021 entre o Brighton e empréstimos ao Swansea e ao Coventry, onde permaneceu nas duas temporadas seguintes. Internacional sueco desde os sub-17, foi o melhor marcador do Europeu de sub-19, em 2017 e estreou-se na selecção principal em janeiro de 2019. Chegou ao Sporting CP em julho de 2023, assinou até 2028 e diz que escolher jogar de Leão ao peito foi fácil, tal a dimensão e história do Clube. História Leonina que já tem o seu nome gravado como campeão nacional e melhor marcador dos Leões na temporada de estreia."
     },
     {
       "id": "nuno-santos",
@@ -839,7 +1108,63 @@
       "altura": "1,77 m",
       "peso": "71 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/nuno_santos.jpg",
-      "codigo": "pt"
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2015/16", "2020/21", "2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 4
+        },
+        {
+          "ano": ["2021/22"],
+          "titulo": "Supertaça de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21", "2021/22"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 2
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "CD Trofense",
+          "ano": "2003-2004"
+        },
+        {
+          "nome": "FC Porto",
+          "ano": "2004-2010"
+        },
+        {
+          "nome": "Padroense FC (emprestado)",
+          "ano": "2010-2011"
+        },
+        {
+          "nome": "FC Porto",
+          "ano": "2011-2012"
+        },
+        {
+          "nome": "Rio Ave FC",
+          "ano": "2012-2013"
+        },
+        {
+          "nome": "SL Benfica",
+          "ano": "2013-2016"
+        },
+        {
+          "nome": "Vitória FC (emprestado)",
+          "ano": "2016-2017"  
+        },
+        {
+          "nome": "Rio Ave FC",
+          "ano": "2017-2020"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2020"
+        }
+      ],
+      "biografia": "Natural da Trofa, Nuno Santos deu os primeiros passos no futebol no CD Trofense. Fez a maior parte da formação no FC Porto, que o emprestou uma época ao Padroense FC. A transição para sénior deu-se no SL Benfica, após curta passagem pelo Rio Ave mas voltaria a Vila do Conde para se afirmar em definitivo no futebol português, com muitos jogos e dez golos em três temporadas. Internacional jovem em 38 ocasiões por Portugal, chegou a Alvalade em 2020 com a promessa de dedicação e trabalho. Orgulhoso por representar o Sporting CP tudo tem feito para ajudar o Clube e a equipa a ganhar todos os jogos. Inaugurou a sua lista de conquistas de Leão ao peito em 2021 e já acumula 2 Taças da Liga, 2 Ligas Portuguesas e 1 Supertaça, num percurso sólido onde já leva mais de 180 jogos oficiais."
     },
     {
       "id": "francisco-trincao",
@@ -852,7 +1177,69 @@
       "altura": "1,84 m",
       "peso": "74 kg",
       "imagem": "https://scpconteudos.pt/sites/default/files/jogador/fotografia/202407/trincao.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/jogador/cover/202308/imgonline-com-ua-compresstosize-dmmlx3uxkisqf.jpg?itok=RxzGTf1v",
+      "codigo": "pt",
+      "conquistas": [
+        {
+          "ano": ["2018"],
+          "titulo": "Campeonato da Europa Sub-19",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2023/24", "2024/25"],
+          "titulo": "Liga Portuguesa",
+          "quantidade": 2
+        },
+        {
+          "ano": ["2019/20"],
+          "titulo": "Taça da Liga de Portugal",
+          "quantidade": 1
+        },
+        {
+          "ano": ["2020/21"],
+          "titulo": "Taça do Rei de Espanha",
+          "quantidade": 1
+        }
+      ],
+      "clubesAnteriores": [
+        {
+          "nome": "SC Vianense",
+          "ano": "2008-2009"
+        },
+        {
+          "nome": "FC Porto",
+          "ano": "2009-2010"
+        },
+        {
+          "nome": "SC Vianense",
+          "ano": "2010-2011"
+        },
+        {
+          "nome": "SC Braga",
+          "ano": "2011-2014"
+        },
+        {
+          "nome": "Palmeiras FC (emprestado)",
+          "ano": "2014-2015"
+        },
+        {
+          "nome": "SC Braga",
+          "ano": "2015-2020"
+        },
+        {
+          "nome": "FC Barcelona",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "Wolverhampton Wanderers (emprestado)",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2022"
+        }
+      ],
+      "biografia": "Francisco Trincão é natural de Braga, mas cresceu em Viana do Castelo e foi com naturalidade que deu os primeiros passos no SC Vianense. Passou pelo FC Porto mas a tenra idade e logística a que a distância para o Porto obrigavam, ditaram o regresso ao Vianense. Na época seguinte ingressou no Braga, cidade onde tinha família e onde pôde crescer mais apoiado, tanto na vida quanto no futebol. Internacional português em todos os escalões desde os sub-17, foi campeão da Europa em 2018, no escalão sub-19 e acabou por se afirmar na equipa principal do SC Braga, na qual se estreou ainda no mesmo ano. Transferiu-se para o FC Barcelona em 2020, onde fez uma temporada e ganhou uma Taça do Rei. Chegou ao Sporting CP, por empréstimo, em 2022/23 e antes disso havia passado por Inglaterra, onde jogou no Wolverhampton. O sonho de representar o Sporting já foi realizado e Trincão já abrilhantou a sua passagem pelo Clube com a conquista do campeonato nacional, o primeiro de muitos títulos que espera festejar de Leão ao peito."
     },
     {
       "id": "conrad-harder",
