@@ -10,7 +10,7 @@
       "imgURL": "/assets/news1.jpg",
       "description": "CR7 volta a casa para terminar a carreira em Alvalade.",
       "content": "Aos 40 anos, Cristiano Ronaldo regressa ao Sporting CP, 21 anos após ter saído para o Manchester United. O craque português assinou contrato até 2026.",
-      "link": "https://example.com/news/cr7-regressa"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "2",
@@ -22,7 +22,7 @@
       "imgURL": "/assets/news2.jpg",
       "description": "O avançado sueco prolonga o contrato com os leões.",
       "content": "O Sporting anunciou hoje a renovação de Viktor Gyökeres, que fica ligado ao clube até 2028 com uma cláusula de rescisão de 100 milhões de euros.",
-      "link": "https://example.com/news/gyokeres-renova"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "3",
@@ -34,7 +34,7 @@
       "imgURL": "/assets/news3.jpg",
       "description": "Leões vencem o Benfica por 2-1 em Alvalade.",
       "content": "O Sporting garantiu uma vitória dramática sobre o Benfica com um golo de Trincão aos 90+3, mantendo-se firme na corrida pelo título.",
-      "link": "https://example.com/news/vitoria-derbi"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "4",
@@ -46,7 +46,7 @@
       "imgURL": "/assets/lol.png",
       "description": "Telmo Regalado, estreia-se com assistência.",
       "content": "A jovem promessa Telmo Regalado teve a sua estreia de sonho com a camisola principal do Sporting, entrando na segunda parte e assistindo para o golo da vitória.",
-      "link": "https://example.com/news/estreia-tiago"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "5",
@@ -58,7 +58,7 @@
       "imgURL": "/assets/news5.jpg",
       "description": "Leões vencem o Braga por 3-0 na final da Taça.",
       "content": "Com golos de Pote, Gyökeres e Morita, o Sporting conquistou a 18.ª Taça de Portugal da sua história, num Estádio do Jamor pintado de verde e branco.",
-      "link": "https://example.com/news/taca-vitoria"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "6",
@@ -70,7 +70,7 @@
       "imgURL": "/assets/news6.jpg",
       "description": "Pote decide continuar no Sporting apesar de interesse estrangeiro.",
       "content": "O médio criativo recusou propostas da Premier League para continuar em Alvalade, reforçando o compromisso com o projeto leonino.",
-      "link": "https://example.com/news/pote-fica"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "7",
@@ -82,7 +82,7 @@
       "imgURL": "/assets/news7.png",
       "description": "Novo design traz de volta detalhes clássicos.",
       "content": "O Sporting revelou hoje os novos equipamentos para a próxima época, com inspiração no clássico de 2000 e tecidos ecológicos.",
-      "link": "https://example.com/news/novo-equipamento"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "8",
@@ -94,7 +94,7 @@
       "imgURL": "/assets/news8.jpg",
       "description": "Campanha quer atrair 20 mil novos sócios até ao verão.",
       "content": "Com o lema 'Mais fortes juntos', o Sporting lança uma campanha com descontos, experiências exclusivas e prioridade em bilhetes.",
-      "link": "https://example.com/news/campanha-socios"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "9",
@@ -106,7 +106,7 @@
       "imgURL": "/assets/news9.png",
       "description": "Rúben Amorim e equipa técnica distinguidos pela UEFA.",
       "content": "A UEFA atribuiu o prémio de inovação tática à equipa técnica do Sporting, destacando o modelo de jogo e gestão de jovens talentos.",
-      "link": "https://example.com/news/premio-uefa"
+      "link": "/pages/noticias.html"
     },
     {
       "id": "10",
@@ -118,7 +118,7 @@
       "imgURL": "/assets/news10.jpg",
       "description": "Nova loja traz conceito moderno e experiências digitais.",
       "content": "O Sporting abriu uma loja conceito na Baixa de Lisboa, com zona de personalização, realidade aumentada e experiências interativas para adeptos.",
-      "link": "https://example.com/news/nova-loja"
+      "link": "/pages/noticias.html"
     }
   ],
   "jogadores": [
