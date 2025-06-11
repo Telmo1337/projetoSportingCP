@@ -15,6 +15,7 @@ function fetchPlantel() {
 
 function renderizarJogadores(jogadores) {
     const jogadoresContainer = document.getElementById("jogadoresContainer");
+    
     jogadoresContainer.innerHTML = '';
 
     jogadores.forEach((j) => {
@@ -34,6 +35,8 @@ function renderizarJogadores(jogadores) {
         jogadoresContainer.appendChild(col);
     });
 }
+
+//filtar os jogadores por posição
 
 function filtrarPorPosicao(posicao) {
     const posicaoNormalizada = posicao.toLowerCase();

@@ -91,9 +91,11 @@ function fetchJogadores() {
 
         col.innerHTML = `
               <div class="mx-auto mb-2" style="width: 120px; height: 120px;">
-                <img src="${j.imagem}" alt="${j.nome}" 
+                <a href="/pages/jogador.html?id=${j.id}">
+                  <img src="${j.imagem}" 
                     class="img-fluid rounded-circle w-100 h-100" 
                     style="object-fit: cover; object-position: top;">
+                </a>
               </div>
               <h5 class="mb-0">${j.nome}</h5>
               <p class="small text-muted">${j.posição}</p>
