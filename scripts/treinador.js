@@ -48,30 +48,13 @@ function fetchTreinadorDetalhes() {
             <div class="col-12 col-lg-6">
                 <div class="card mb-4">
                     <div class="card-header">
-                        <h5 class="card-title mb-0">Estatísticas de Carreira</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="text-muted">teste</p>
-                    </div>
-                </div>
-
-                <div class="card mb-4">
-                    <div class="card-header">
                         <h5 class="card-title mb-0">Linha Temporal da Carreira</h5>
                     </div>
                     <div class="card-body timeline">
-                        <p class="text-muted">teste</p>
+                        <ul class="text-muted">${t.clubesAnteriores.map(c => `<li>${c.nome} (${c.ano})</li>`).join('')}</ul>
                     </div>
                 </div>
                 
-                 <div class="card mb-4">
-                    <div class="card-header">
-                        <h5 class="card-title mb-0">Conquistas</h5>
-                    </div>
-                    <div class="card-body">
-                        <p class="text-muted">teste</p>
-                    </div>
-                </div>
 
                 <div class="card mb-4">
                     <div class="card-header">

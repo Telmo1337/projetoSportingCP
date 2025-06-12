@@ -1555,7 +1555,47 @@
       "nacionalidade": "Portugal",
       "idade": 43,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/rui_borges.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://asset.skoiy.com/jnrcnjwljorqgsbu/aykvbnrggbql.jpg?w=1852&q=80&crop=1820,1213,50,0",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "SC Mirandela",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "Académico de Viseu",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "Académica de Coimbra",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "CD Nacional",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Vilafranquense FC",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "CD Mafra",
+          "ano": "2023"
+        },
+        {
+          "nome": "Moreirense FC",
+          "ano": "2023-2024"
+        },
+        {
+          "nome": "Vitória SC",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia" :"Rui Borges iniciou a carreira de treinador em 2017, no SC Mirandela, o clube da sua terra no qual havia encerrado a carreira de jogador na temporada anterior. Após uma temporada e meia no Campeonato de Portugal, estreou-se na Liga 2 em 2019, ao serviço do Académico de Viseu. Seguiu-se a Académica de Coimbra, onde em 2021 ficou a escassos 3 pontos de poder lutar pelo regresso dos 'estudantes' ao primeiro escalão do futebol português. Seguiram-se CD Nacional, Vilafranquense FC e CD Mafra, antes da estreia na Liga Portugal, ao serviço do Moreirense, classificando os 'cónegos' em 6.º lugar."
     },
     {
       "id": "tiago-aguiar",
@@ -1566,7 +1606,75 @@
       "nacionalidade": "Portugal",
       "idade": 36,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/tiago_aguiar.jpg",
-      "codigo": "pt"
+      "imagemPerfil":"https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "CD Alves",
+          "ano": "2009-2010"
+        },
+        {
+          "nome": "Bairro FC",
+          "ano": "2010-2011"
+        },
+        {
+          "nome": "FC Famalicão",
+          "ano": "2011-2012"
+        },
+        {
+          "nome": "CD Trofense",
+          "ano": "2012-2013"
+        },
+        {
+          "nome": "AD Oliveirense",
+          "ano": "2014-2015"
+        },
+        {
+          "nome": "FC Tirsense",
+          "ano": "2015-2016"
+        },
+        {
+          "nome": "FC Vizela",
+          "ano": "2016"
+        },
+        {
+          "nome": "GD Chaves",
+          "ano": "2017"
+        },
+        {
+          "nome": "GD Alves",
+          "ano": "2017"
+        },
+        {
+          "nome": "A. Académica de Coimbra",
+          "ano": "2018"
+        },
+        {
+          "nome": "CD Feirense",
+          "ano": "2018-2020"
+        },
+        {
+          "nome": "Rio Ave FC",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "FC Paços de Ferreira",
+          "ano": "2021-2023"
+        },
+        {
+          "nome": "FC Moreirense",
+          "ano": "2023-2024"
+        },
+        {
+          "nome": "Vitória SC",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia" : "Tiago Aguiar é treinador desde os 20 anos. Começou no futebol de formação e passou por vários clubes até se cruzar com Rui Borges no Moreirense, em 2023/24. Chegou ao Sporting CP em 2024, vindo do Vitória SC, integrado na equipa técnica que Rui Borges trouxe de Guimarães."
     },
     {
       "id": "ricardo-chaves",
@@ -1577,7 +1685,59 @@
       "nacionalidade": "Portugal",
       "idade": 47,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/ricardo_chaves.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "GD Chaves",
+          "ano": "2014-2015"
+        },
+        {
+          "nome": "SC Mirandela",
+          "ano": "2015-2017"
+        },
+        {
+          "nome": "GD Chaves",
+          "ano": "2017-2018"
+        },
+        {
+          "nome": "GDC Montalegre",
+          "ano": "2018-2019"
+        },
+        {
+          "nome": "Ac. Viseu FC",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "A. Académica de Coimbra",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "GD Nacional",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Vilafranquense FC",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "CD Mafra",
+          "ano": "2023"
+        },
+        {
+          "nome": "Moreirense FC",
+          "ano": "2023-2024"
+        },
+        {
+          "nome": "Vitória SC",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia" :"Ricardo Chaves jogou com Rui Borges no SC Mirandela e os seus caminhos voltaram a cruzar-se enquanto treinadores. O percurso foi feito em conjunto e assim continuará em Alvalade, onde o objetivo são os títulos."
     },
     {
       "id": "luis-neto",
@@ -1588,7 +1748,15 @@
       "nacionalidade": "Portugal",
       "idade": 36,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/luis_neto.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Natural da Póvoa de Varzim, Luís Neto terminou a carreira de jogador em 2024, ao serviço do Sporting CP. Bicampeão nacional de Leão ao peito, foi enquanto jogador um dos esteios do balneário Leonino, onde gozou do estatuto de capitão de equipa. Começou a carreira de treinador no Sporting, em novembro de 2024, onde tem transmitido ao grupo de trabalho toda a sua vasta experiêriência como jogador, mas também as competências técnicas e tácticas adquiridas."
     },
     {
       "id": "fernando-morato",
@@ -1599,7 +1767,55 @@
       "nacionalidade": "Portugal",
       "idade": 29,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/fernando_morato.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+       "clubesAnteriores": [
+        {
+          "nome": "GD Bragança",
+          "ano": "2016-2017"
+        },
+        {
+          "nome": "AD Paredes",
+          "ano": "2017"
+        },
+        {
+          "nome": "SC Mirandela",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "Ac. Viseu FC",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "A. Académica de Coimbra",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "CD Nacional",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Vilafranquense FC",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "CD Mafra",
+          "ano": "2023"
+        },
+        {
+          "nome": "Moreirense FC",
+          "ano": "2023-2024"
+        },
+        {
+          "nome": "Vitória SC",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "Fernando Morato é licenciado em ciências do desporto, com pós-graduação em performance desportiva e começou a carreira no GD Bragança. O seu caminho cruzou o de Rui Borges em 2017, têm seguido juntos desde então e procuram agora as conquistas ao serviço do Sporting CP."
     },
     {
       "id": "gonçalo-alvaro",
@@ -1610,7 +1826,15 @@
       "nacionalidade": "Portugal",
       "idade": 48,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st4.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "Sporting CP",
+          "ano": "2014-2024"
+        }
+      ],
+      "biografia": "Nascido em Lisboa, Gonçalo Álvaro é Mestre em Ciências da Fisioterapia e Licenciado em Ciências do Desporto. Após nove temporadas a integrar o departamento médico do futebol profissional, enquanto fisioterapeuta, Álvaro coloca agora em prática outra das suas competências ao serviço do Sporting Clube de Portugal. O físico dos Leões está sempre \"afinado\" e Gonçalo Álvaro foi mais uma das peças na conquista de dois títulos nacionais, aos quais acrescenta as conquistas de duas taças de Portugal, três taças da Liga e duas Supertaças."
     },
     {
       "id": "jose-meireles",
@@ -1621,7 +1845,47 @@
       "nacionalidade": "Portugal",
       "idade": 32,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202503/jose_meireles.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202501/sem_titulo_11_4.jpeg?itok=jM4cdVVm",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "SC Mirandela",
+          "ano": "2017-2019"
+        },
+        {
+          "nome": "Ac. Viseu FC",
+          "ano": "2019-2020"
+        },
+        {
+          "nome": "A. Académica de Coimbra",
+          "ano": "2020-2021"
+        },
+        {
+          "nome": "CD Nacional",
+          "ano": "2021-2022"
+        },
+        {
+          "nome": "Vilafranquense FC",
+          "ano": "2022-2023"
+        },
+        {
+          "nome": "CD Mafra",
+          "ano": "2023"
+        },
+        {
+          "nome": "Moreirense FC",
+          "ano": "2023-2024"
+        },
+        {
+          "nome": "Vitória SC",
+          "ano": "2024"
+        },
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia": "José Meireles faz parte das equipas técnicas de Rui Borges desde o início, no SC Mirandela. Parte integrante da escalada desde o Campeonato de Portugal até à Liga Portugal e ao Sporting CP, é o responsável pela observação e análise."
     },
     {
       "id": "pedro-cardoso",
@@ -1632,7 +1896,15 @@
       "nacionalidade": "Portugal",
       "idade": 35,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/pedro_cardoso.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202411/sem_titulo_8.jpeg?itok=U9ujbx7_",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "Sporting CP",
+          "ano": "2024"
+        }
+      ],
+      "biografia" : "Pedro Cardoso formou-se em Ciências do Desporto e Exercício e Saúde, na Faculdade de Motricidade Humana e trabalhou na preparação física das equipas de formação, seniores femininos e masculinos da Federação Portuguesa de Rugby. Entrou no Sporting CP em 2019, inicialmente para a equipa técnica do plantel sénior feminino de futebol, transitando em 2020 para os sub-19 masculinos. Passou pelos sub-23 e equipa B, antes de integrar a equipa principal, em novembro de 2024."
     },
     {
       "id": "tiago-ferreira",
@@ -1643,7 +1915,27 @@
       "nacionalidade": "Portugal",
       "idade": 49,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202407/st3.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202411/sem_titulo_9.jpeg?itok=5b5A7riJ",
+      "clubesAnteriores": [
+        {
+          "nome": "Sporting CP(formação/equipa principal)",
+          "ano": "2012-2018"
+        },
+        {
+          "nome": "Portimonense SC(Sub-23)",
+          "ano": "2018"
+        },
+        {
+          "nome": "GD Alves(equipa principal)",
+          "ano": "2019"
+        },
+        {
+          "nome": "Sporting CP(Sub-23/equipa principal)",
+          "ano": "2019"
+        }
+      ],
+      "codigo": "pt",
+      "biografia" :"Tiago Ferreira é natural de A-dos-Cunhados e iniciou a carreira de treinador no Sporting CP, após o término da carreira de jogador. Desde 1995, só em três temporadas não esteve ao serviço dos leões, sendo que foi em 2012 que integrou a equipa técnica dos juniores, como treinador de guarda-redes. Passou também pela equipa B, pelos sub-23 e pela equipa principal dos leões, juntando-se mais recentemente à equipa principal. Contribuíu para melhorar a performance dos guarda-redes Leoninos e foi parte integrante das conquistas da Taça da Liga, de dois Campeonatos Nacionais e da Supertaça."
     },
     {
       "id": "hugo-tecelao",
@@ -1654,7 +1946,15 @@
       "nacionalidade": "Portugal",
       "idade": 41,
       "imagem": "https://scpconteudos.pt/sites/default/files/staff/fotografia/202409/hugo_tecelao.jpg",
-      "codigo": "pt"
+      "imagemPerfil": "https://scpconteudos.pt/sites/default/files/styles/large/public/staff/cover/202411/sem_titulo_10.jpeg?itok=AgVUsmjR",
+      "codigo": "pt",
+      "clubesAnteriores": [
+        {
+          "nome": "Sporting CP",
+          "ano": "2014"
+        }
+      ],
+      "biografia": "Natural de Lisboa, Hugo Tecelão foi guarda-redes do Sporting CP durante doze temporadas, dos escalões de formação aos seniores. Regressou ao Clube para exercer funções no treino dos guarda-redes e desde 2014 que tem percorrido vários escalões de formação na Academia Sporting CP, integrando agora a equipa técnica da equipa principal."
     }
   ],
 
