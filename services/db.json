@@ -2467,5 +2467,25 @@
       "horario": "2024-03-31T20:30:00",
       "local": "Fora"
     }
+  ],
+
+
+  "faq" : [
+    {
+      "pergunta": "Em que ano foi fundado o Sporting CP?",
+      "resposta": "O Sporting CP foi fundado em 1906."
+    },
+    {
+      "pergunta": "Quantos títulos nacionais tem o Sporting CP?",
+      "resposta": "O Sporting CP conquistou 56 títulos nacionais."
+    },
+    {
+      "pergunta": "Quem é o maior rival do Sporting CP?",
+      "resposta": "O maior rival do Sporting CP é o SL Benfica."
+    },
+    {
+      "pergunta": "Onde fica localizado o Estádio José Alvalade?",
+      "resposta": "O Estádio José Alvalade está localizado em Lisboa, Portugal."
+    }
   ]
 }

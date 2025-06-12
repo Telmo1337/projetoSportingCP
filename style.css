@@ -249,6 +249,8 @@ body.fade-in {
 
 
 
+/*section trofeus propriedades*/
+
 .trofeu-img-container {
   width: 100px;
   height: 100px;
@@ -265,3 +267,33 @@ body.fade-in {
 
 
 
+
+/*faq section propriedades */
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--sporting-green);
+  color: white;
+  border-color: var(--sporting-green);
+  
+}
+
+
+.accordion-button.collapsed {
+  background-color: white;
+   color: black;
+}
+
+.accordion-item {
+  border: 20px solid white;
+  overflow: hidden;
+}
+
+.accordion-body {
+  background-color: var(--sporting-light-green); 
+  color: black;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: var(--sporting-green);
+}

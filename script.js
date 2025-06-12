@@ -1,32 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Tooltips Bootstrap
-  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-  tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl);
-  });
-
-  // Transição de links com fade-out
-  const links = document.querySelectorAll(".transition-link");
-  links.forEach(link => {
-    link.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = this.href;
-      document.body.classList.add("fade-out");
-      setTimeout(() => {
-        window.location.href = target;
-      }, 500);
-    });
-  });
-
-  // Fetch APIs
-  fetchNoticias();
-  fetchJogadores();
-  fetchTrofeus();
-});
-
-
-
-
 //function => fetch noticias
 function fetchNoticias() {
 
@@ -148,4 +119,62 @@ function fetchTrofeus() {
 
 }
 
+//fetch faq section
+function fetchFAQ() {
+  const faqApiURL = 'http://localhost:3000/faq';
 
+  fetch(faqApiURL)
+    .then(res => res.json())
+    .then(data => {
+      const faqContainer = document.getElementById("faqAccordion");
+
+      data.forEach((item, index) => {
+        const faqItem = document.createElement("div");
+        faqItem.className = "accordion-item";
+
+        faqItem.innerHTML = `
+          <h2 class="accordion-header" id="heading${index}">
+            <button class="accordion-button ${index !== 0 ? 'collapsed' : ''}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}">
+              ${index + 1}. ${item.pergunta}
+            </button>
+          </h2>
+          <div id="collapse${index}" class="accordion-collapse collapse ${index === 0 ? 'show' : ''}" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              ${item.resposta}
+            </div>
+          </div>
+        `;
+
+        faqContainer.appendChild(faqItem);
+      });
+    })
+    .catch(err => console.error(err));
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Tooltips Bootstrap
+  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+
+  // Transição de links com fade-out
+  const links = document.querySelectorAll(".transition-link");
+  links.forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = this.href;
+      document.body.classList.add("fade-out");
+      setTimeout(() => {
+        window.location.href = target;
+      }, 500);
+    });
+  });
+
+  // Fetch APIs
+  fetchNoticias();
+  fetchJogadores();
+  fetchTrofeus();
+  fetchFAQ();
+});
