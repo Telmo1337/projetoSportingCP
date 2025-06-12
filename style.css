@@ -297,3 +297,14 @@ body.fade-in {
   box-shadow: none;
   border-color: var(--sporting-green);
 }
+
+
+
+/*formulário propriedades*/
+
+.form-check-input:checked {
+  background-color: var(--sporting-green);
+  border-color: var(--sporting-green);
+}
+
+
