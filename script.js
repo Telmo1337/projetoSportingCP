@@ -1,41 +1,91 @@
 //function => fetch noticias
 function fetchNoticias() {
-
-  noticiasApiURL = 'http://localhost:3000/noticias';
+  const noticiasApiURL = 'http://localhost:3000/noticias';
 
   fetch(noticiasApiURL)
     .then((res) => res.json())
     .then((data) => {
-
-      console.log('teste: ', data);
-
       const noticiasContainer = document.getElementById("noticiasContainer");
 
-      //slice 0,3 para apenas apresentar as 3 primeiras noticias que estao na api
-      data.slice(3, 6).forEach((n) => {
-        const col = document.createElement('div');
-        col.className = 'col-md-6 col-lg-4';
+      const carouselId = "noticiasCarousel";
+      const carousel = document.createElement("div");
+      carousel.id = carouselId;
+      carousel.className = "carousel slide";
+      carousel.setAttribute("data-bs-ride", "carousel");
 
-        col.innerHTML = `
-        <div class="card h-100">
-          <img src="${n.imgURL}" class="card-img-top" alt="${n.titulo}" style="height: 240px; object-fit: cover;">
-          <div class="card-body">
-            <div class="d-flex align-items-center gap-2 mb-2">
-              <span class="badge bg-sporting">${n.categoria}</span>
-              <small class="text-muted">${n.data}</small>
+      const indicators = document.createElement("div");
+      indicators.className = "carousel-indicators";
+
+      const inner = document.createElement("div");
+      inner.className = "carousel-inner";
+
+      // agrupar noticias de 3 em 3
+      const chunkSize = 3;
+      for (let i = 0; i < data.length; i += chunkSize) {
+        const grupo = data.slice(i, i + chunkSize);
+
+        // indicadores
+        const button = document.createElement("button");
+        button.type = "button";
+        button.setAttribute("data-bs-target", `#${carouselId}`);
+        button.setAttribute("data-bs-slide-to", i / chunkSize);
+        if (i === 0) button.classList.add("active");
+        indicators.appendChild(button);
+
+        //slide item
+        const item = document.createElement("div");
+        item.className = `carousel-item${i === 0 ? " active" : ""}`;
+
+        const row = document.createElement("div");
+        row.className = "row justify-content-center g-4";
+
+        grupo.forEach(n => {
+          const col = document.createElement("div");
+          col.className = "col-md-6 col-lg-4";
+
+          col.innerHTML = `
+            <div class="card h-100">
+              <img src="${n.imgURL}" class="card-img-top" alt="${n.titulo}" style="height: 240px; object-fit: cover;">
+              <div class="card-body">
+                <div class="d-flex align-items-center gap-2 mb-2">
+                  <span class="badge bg-sporting">${n.categoria}</span>
+                  <small class="text-muted">${n.data}</small>
+                </div>
+                <h5 class="card-title">${n.titulo}</h5>
+                <p class="card-text">${n.content}</p>
+                <a href="${n.link}" class="text-sporting fw-medium">Ler mais →</a>
+              </div>
             </div>
-            <h5 class="card-title">${n.titulo}</h5>
-            <p class="card-text">${n.content}</p>
-            <a href="${n.link}" class="text-sporting fw-medium">Ler mais →</a>
-          </div>
-        </div>
-      `;
-        noticiasContainer.appendChild(col);
-      });
-    })
+          `;
+          row.appendChild(col);
+        });
 
-    .catch(err => console.error( err));
+        item.appendChild(row);
+        inner.appendChild(item);
+      }
+
+      const prevBtn = `
+        <button class="carousel-control-prev" type="button" data-bs-target="#${carouselId}" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>`;
+
+      const nextBtn = `
+        <button class="carousel-control-next" type="button" data-bs-target="#${carouselId}" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Seguinte</span>
+        </button>`;
+
+      carousel.appendChild(indicators);
+      carousel.appendChild(inner);
+      carousel.innerHTML += prevBtn + nextBtn;
+
+      noticiasContainer.appendChild(carousel);
+    })
+    .catch(err => console.error(err));
 }
+
+
 
 
 //function => fetch jogadores
